@@ -1,0 +1,10 @@
+object_class,object_category
+hand,anim_natural
+duck,anim_natural
+dog,anim_natural
+flower,inanim_natural
+tree,inanim_natural
+leaf,inanim_natural
+bicycle,inanim_artificial
+chair,inanim_artificial
+truck,inanim_artificial

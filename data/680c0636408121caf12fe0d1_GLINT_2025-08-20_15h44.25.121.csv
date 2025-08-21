@@ -1,0 +1,9 @@
+﻿participant,date,expName,psychopyVersion,OS,frameRate,CorrectResponse,prac_prompt_1,prac_prompt_2,prac_prompt_3,prac_prompt_4,prac_prompt_5,prac_prompt_6,prac_prompt_7,prac_prompt_8,prac_prompt_9,prac_key_resp.keys,prac_key_resp.corr,prac_key_resp.rt,prac_key_resp.duration,prac_loop.thisRepN,prac_loop.thisTrialN,prac_loop.thisN,prac_loop.thisIndex,prac_loop.ran,object_class,object_category
+680c0636408121caf12fe0d1,2025-08-20_15h44.25.121,GLINT,2024.2.4,Win32,60.60606061,,,,,,,,,,,,,,,,,,,,,
+680c0636408121caf12fe0d1,2025-08-20_15h44.25.121,GLINT,2024.2.4,Win32,60.60606061,,,,,,,,,,,,,,,,,,,,,
+680c0636408121caf12fe0d1,2025-08-20_15h44.25.121,GLINT,2024.2.4,Win32,60.60606061,,,,,,,,,,,,,,,,,,,,,
+680c0636408121caf12fe0d1,2025-08-20_15h44.25.121,GLINT,2024.2.4,Win32,60.60606061,4,flower,leaf,duck,tree,bicycle,dog,hand,truck,chair,4,1,7.5177,,0,0,0,4,1,tree,inanim_natural
+680c0636408121caf12fe0d1,2025-08-20_15h44.25.121,GLINT,2024.2.4,Win32,60.60606061,2,tree,dog,bicycle,leaf,flower,hand,truck,chair,duck,2,1,1.953,,0,1,1,2,1,dog,anim_natural
+680c0636408121caf12fe0d1,2025-08-20_15h44.25.121,GLINT,2024.2.4,Win32,60.60606061,7,truck,hand,chair,dog,tree,leaf,duck,flower,bicycle,7,1,3.509,,0,2,2,1,1,duck,anim_natural
+680c0636408121caf12fe0d1,2025-08-20_15h44.25.121,GLINT,2024.2.4,Win32,60.60606061,5,dog,truck,chair,bicycle,hand,flower,leaf,duck,tree,5,1,8.3052,,0,3,3,0,1,hand,anim_natural
+680c0636408121caf12fe0d1,2025-08-20_15h44.25.121,GLINT,2024.2.4,Win32,60.60606061,6,duck,tree,chair,dog,leaf,flower,truck,bicycle,hand,5,0,6.1713,,0,4,4,3,1,flower,inanim_natural
