@@ -116,7 +116,6 @@ flowScheduler.add(randomize_blocksLoopEnd);
 
 
 
-
 flowScheduler.add(quitPsychoJS, 'Thank you for your patience.', true);
 
 // quit if user presses Cancel in dialog box:
@@ -130,7 +129,643 @@ psychoJS.start({
     {'name': 'practice_object_classes.csv', 'path': 'practice_object_classes.csv'},
     {'name': 'block_randomizer.xlsx', 'path': 'block_randomizer.xlsx'},
     {'name': 'object_classes.csv', 'path': 'object_classes.csv'},
+    {'name': 'stim/practice_stim/chair/chair(2).JPEG', 'path': 'stim/practice_stim/chair/chair(2).JPEG'},
     {'name': 'default.png', 'path': 'https://pavlovia.org/assets/default/default.png'},
+    {'name': 'stim/prompt.png', 'path': 'stim/prompt.png'},
+    {'name': 'stim/rgb_mask.jpg', 'path': 'stim/rgb_mask.jpg'},
+    {'name': 'stim/scrambled/prac_image.png', 'path': 'stim/scrambled/prac_image.png'},
+    {'name': 'stim/scrambled/train/train(1).png', 'path': 'stim/scrambled/train/train(1).png'},
+    {'name': 'stim/scrambled/train/train(2).png', 'path': 'stim/scrambled/train/train(2).png'},
+    {'name': 'stim/scrambled/train/train(3).png', 'path': 'stim/scrambled/train/train(3).png'},
+    {'name': 'stim/scrambled/train/train(4).png', 'path': 'stim/scrambled/train/train(4).png'},
+    {'name': 'stim/scrambled/train/train(5).png', 'path': 'stim/scrambled/train/train(5).png'},
+    {'name': 'stim/scrambled/train/train(6).png', 'path': 'stim/scrambled/train/train(6).png'},
+    {'name': 'stim/scrambled/train/train(7).png', 'path': 'stim/scrambled/train/train(7).png'},
+    {'name': 'stim/scrambled/train/train(8).png', 'path': 'stim/scrambled/train/train(8).png'},
+    {'name': 'stim/scrambled/train/train(9).png', 'path': 'stim/scrambled/train/train(9).png'},
+    {'name': 'stim/scrambled/train/train(10).png', 'path': 'stim/scrambled/train/train(10).png'},
+    {'name': 'stim/scrambled/snail/snail(1).png', 'path': 'stim/scrambled/snail/snail(1).png'},
+    {'name': 'stim/scrambled/snail/snail(2).png', 'path': 'stim/scrambled/snail/snail(2).png'},
+    {'name': 'stim/scrambled/snail/snail(3).png', 'path': 'stim/scrambled/snail/snail(3).png'},
+    {'name': 'stim/scrambled/snail/snail(4).png', 'path': 'stim/scrambled/snail/snail(4).png'},
+    {'name': 'stim/scrambled/snail/snail(5).png', 'path': 'stim/scrambled/snail/snail(5).png'},
+    {'name': 'stim/scrambled/snail/snail(6).png', 'path': 'stim/scrambled/snail/snail(6).png'},
+    {'name': 'stim/scrambled/snail/snail(7).png', 'path': 'stim/scrambled/snail/snail(7).png'},
+    {'name': 'stim/scrambled/snail/snail(8).png', 'path': 'stim/scrambled/snail/snail(8).png'},
+    {'name': 'stim/scrambled/snail/snail(9).png', 'path': 'stim/scrambled/snail/snail(9).png'},
+    {'name': 'stim/scrambled/snail/snail(10).png', 'path': 'stim/scrambled/snail/snail(10).png'},
+    {'name': 'stim/scrambled/pineapple/pineapple(1).png', 'path': 'stim/scrambled/pineapple/pineapple(1).png'},
+    {'name': 'stim/scrambled/pineapple/pineapple(2).png', 'path': 'stim/scrambled/pineapple/pineapple(2).png'},
+    {'name': 'stim/scrambled/pineapple/pineapple(3).png', 'path': 'stim/scrambled/pineapple/pineapple(3).png'},
+    {'name': 'stim/scrambled/pineapple/pineapple(4).png', 'path': 'stim/scrambled/pineapple/pineapple(4).png'},
+    {'name': 'stim/scrambled/pineapple/pineapple(5).png', 'path': 'stim/scrambled/pineapple/pineapple(5).png'},
+    {'name': 'stim/scrambled/pineapple/pineapple(6).png', 'path': 'stim/scrambled/pineapple/pineapple(6).png'},
+    {'name': 'stim/scrambled/pineapple/pineapple(7).png', 'path': 'stim/scrambled/pineapple/pineapple(7).png'},
+    {'name': 'stim/scrambled/pineapple/pineapple(8).png', 'path': 'stim/scrambled/pineapple/pineapple(8).png'},
+    {'name': 'stim/scrambled/pineapple/pineapple(9).png', 'path': 'stim/scrambled/pineapple/pineapple(9).png'},
+    {'name': 'stim/scrambled/pineapple/pineapple(10).png', 'path': 'stim/scrambled/pineapple/pineapple(10).png'},
+    {'name': 'stim/scrambled/mushroom/mushroom(1).png', 'path': 'stim/scrambled/mushroom/mushroom(1).png'},
+    {'name': 'stim/scrambled/mushroom/mushroom(2).png', 'path': 'stim/scrambled/mushroom/mushroom(2).png'},
+    {'name': 'stim/scrambled/mushroom/mushroom(3).png', 'path': 'stim/scrambled/mushroom/mushroom(3).png'},
+    {'name': 'stim/scrambled/mushroom/mushroom(4).png', 'path': 'stim/scrambled/mushroom/mushroom(4).png'},
+    {'name': 'stim/scrambled/mushroom/mushroom(5).png', 'path': 'stim/scrambled/mushroom/mushroom(5).png'},
+    {'name': 'stim/scrambled/mushroom/mushroom(6).png', 'path': 'stim/scrambled/mushroom/mushroom(6).png'},
+    {'name': 'stim/scrambled/mushroom/mushroom(7).png', 'path': 'stim/scrambled/mushroom/mushroom(7).png'},
+    {'name': 'stim/scrambled/mushroom/mushroom(8).png', 'path': 'stim/scrambled/mushroom/mushroom(8).png'},
+    {'name': 'stim/scrambled/mushroom/mushroom(9).png', 'path': 'stim/scrambled/mushroom/mushroom(9).png'},
+    {'name': 'stim/scrambled/mushroom/mushroom(10).png', 'path': 'stim/scrambled/mushroom/mushroom(10).png'},
+    {'name': 'stim/scrambled/lawnmower/lawnmower(1).png', 'path': 'stim/scrambled/lawnmower/lawnmower(1).png'},
+    {'name': 'stim/scrambled/lawnmower/lawnmower(2).png', 'path': 'stim/scrambled/lawnmower/lawnmower(2).png'},
+    {'name': 'stim/scrambled/lawnmower/lawnmower(3).png', 'path': 'stim/scrambled/lawnmower/lawnmower(3).png'},
+    {'name': 'stim/scrambled/lawnmower/lawnmower(4).png', 'path': 'stim/scrambled/lawnmower/lawnmower(4).png'},
+    {'name': 'stim/scrambled/lawnmower/lawnmower(5).png', 'path': 'stim/scrambled/lawnmower/lawnmower(5).png'},
+    {'name': 'stim/scrambled/lawnmower/lawnmower(6).png', 'path': 'stim/scrambled/lawnmower/lawnmower(6).png'},
+    {'name': 'stim/scrambled/lawnmower/lawnmower(7).png', 'path': 'stim/scrambled/lawnmower/lawnmower(7).png'},
+    {'name': 'stim/scrambled/lawnmower/lawnmower(8).png', 'path': 'stim/scrambled/lawnmower/lawnmower(8).png'},
+    {'name': 'stim/scrambled/lawnmower/lawnmower(9).png', 'path': 'stim/scrambled/lawnmower/lawnmower(9).png'},
+    {'name': 'stim/scrambled/lawnmower/lawnmower(10).png', 'path': 'stim/scrambled/lawnmower/lawnmower(10).png'},
+    {'name': 'stim/scrambled/house/house(1).png', 'path': 'stim/scrambled/house/house(1).png'},
+    {'name': 'stim/scrambled/house/house(2).png', 'path': 'stim/scrambled/house/house(2).png'},
+    {'name': 'stim/scrambled/house/house(3).png', 'path': 'stim/scrambled/house/house(3).png'},
+    {'name': 'stim/scrambled/house/house(4).png', 'path': 'stim/scrambled/house/house(4).png'},
+    {'name': 'stim/scrambled/house/house(5).png', 'path': 'stim/scrambled/house/house(5).png'},
+    {'name': 'stim/scrambled/house/house(6).png', 'path': 'stim/scrambled/house/house(6).png'},
+    {'name': 'stim/scrambled/house/house(7).png', 'path': 'stim/scrambled/house/house(7).png'},
+    {'name': 'stim/scrambled/house/house(8).png', 'path': 'stim/scrambled/house/house(8).png'},
+    {'name': 'stim/scrambled/house/house(9).png', 'path': 'stim/scrambled/house/house(9).png'},
+    {'name': 'stim/scrambled/house/house(10).png', 'path': 'stim/scrambled/house/house(10).png'},
+    {'name': 'stim/scrambled/dog/dog(1).png', 'path': 'stim/scrambled/dog/dog(1).png'},
+    {'name': 'stim/scrambled/dog/dog(2).png', 'path': 'stim/scrambled/dog/dog(2).png'},
+    {'name': 'stim/scrambled/dog/dog(3).png', 'path': 'stim/scrambled/dog/dog(3).png'},
+    {'name': 'stim/scrambled/dog/dog(4).png', 'path': 'stim/scrambled/dog/dog(4).png'},
+    {'name': 'stim/scrambled/dog/dog(5).png', 'path': 'stim/scrambled/dog/dog(5).png'},
+    {'name': 'stim/scrambled/dog/dog(6).png', 'path': 'stim/scrambled/dog/dog(6).png'},
+    {'name': 'stim/scrambled/dog/dog(7).png', 'path': 'stim/scrambled/dog/dog(7).png'},
+    {'name': 'stim/scrambled/dog/dog(8).png', 'path': 'stim/scrambled/dog/dog(8).png'},
+    {'name': 'stim/scrambled/dog/dog(9).png', 'path': 'stim/scrambled/dog/dog(9).png'},
+    {'name': 'stim/scrambled/dog/dog(10).png', 'path': 'stim/scrambled/dog/dog(10).png'},
+    {'name': 'stim/scrambled/cow/cow(1).png', 'path': 'stim/scrambled/cow/cow(1).png'},
+    {'name': 'stim/scrambled/cow/cow(2).png', 'path': 'stim/scrambled/cow/cow(2).png'},
+    {'name': 'stim/scrambled/cow/cow(3).png', 'path': 'stim/scrambled/cow/cow(3).png'},
+    {'name': 'stim/scrambled/cow/cow(4).png', 'path': 'stim/scrambled/cow/cow(4).png'},
+    {'name': 'stim/scrambled/cow/cow(5).png', 'path': 'stim/scrambled/cow/cow(5).png'},
+    {'name': 'stim/scrambled/cow/cow(6).png', 'path': 'stim/scrambled/cow/cow(6).png'},
+    {'name': 'stim/scrambled/cow/cow(7).png', 'path': 'stim/scrambled/cow/cow(7).png'},
+    {'name': 'stim/scrambled/cow/cow(8).png', 'path': 'stim/scrambled/cow/cow(8).png'},
+    {'name': 'stim/scrambled/cow/cow(9).png', 'path': 'stim/scrambled/cow/cow(9).png'},
+    {'name': 'stim/scrambled/cow/cow(10).png', 'path': 'stim/scrambled/cow/cow(10).png'},
+    {'name': 'stim/scrambled/corn/corn(1).png', 'path': 'stim/scrambled/corn/corn(1).png'},
+    {'name': 'stim/scrambled/corn/corn(2).png', 'path': 'stim/scrambled/corn/corn(2).png'},
+    {'name': 'stim/scrambled/corn/corn(3).png', 'path': 'stim/scrambled/corn/corn(3).png'},
+    {'name': 'stim/scrambled/corn/corn(4).png', 'path': 'stim/scrambled/corn/corn(4).png'},
+    {'name': 'stim/scrambled/corn/corn(5).png', 'path': 'stim/scrambled/corn/corn(5).png'},
+    {'name': 'stim/scrambled/corn/corn(6).png', 'path': 'stim/scrambled/corn/corn(6).png'},
+    {'name': 'stim/scrambled/corn/corn(7).png', 'path': 'stim/scrambled/corn/corn(7).png'},
+    {'name': 'stim/scrambled/corn/corn(8).png', 'path': 'stim/scrambled/corn/corn(8).png'},
+    {'name': 'stim/scrambled/corn/corn(9).png', 'path': 'stim/scrambled/corn/corn(9).png'},
+    {'name': 'stim/scrambled/corn/corn(10).png', 'path': 'stim/scrambled/corn/corn(10).png'},
+    {'name': 'stim/scrambled/cat/cat(1).png', 'path': 'stim/scrambled/cat/cat(1).png'},
+    {'name': 'stim/scrambled/cat/cat(2).png', 'path': 'stim/scrambled/cat/cat(2).png'},
+    {'name': 'stim/scrambled/cat/cat(3).png', 'path': 'stim/scrambled/cat/cat(3).png'},
+    {'name': 'stim/scrambled/cat/cat(4).png', 'path': 'stim/scrambled/cat/cat(4).png'},
+    {'name': 'stim/scrambled/cat/cat(5).png', 'path': 'stim/scrambled/cat/cat(5).png'},
+    {'name': 'stim/scrambled/cat/cat(6).png', 'path': 'stim/scrambled/cat/cat(6).png'},
+    {'name': 'stim/scrambled/cat/cat(7).png', 'path': 'stim/scrambled/cat/cat(7).png'},
+    {'name': 'stim/scrambled/cat/cat(8).png', 'path': 'stim/scrambled/cat/cat(8).png'},
+    {'name': 'stim/scrambled/cat/cat(9).png', 'path': 'stim/scrambled/cat/cat(9).png'},
+    {'name': 'stim/scrambled/cat/cat(10).png', 'path': 'stim/scrambled/cat/cat(10).png'},
+    {'name': 'stim/scrambled/car/car(1).png', 'path': 'stim/scrambled/car/car(1).png'},
+    {'name': 'stim/scrambled/car/car(2).png', 'path': 'stim/scrambled/car/car(2).png'},
+    {'name': 'stim/scrambled/car/car(3).png', 'path': 'stim/scrambled/car/car(3).png'},
+    {'name': 'stim/scrambled/car/car(4).png', 'path': 'stim/scrambled/car/car(4).png'},
+    {'name': 'stim/scrambled/car/car(5).png', 'path': 'stim/scrambled/car/car(5).png'},
+    {'name': 'stim/scrambled/car/car(6).png', 'path': 'stim/scrambled/car/car(6).png'},
+    {'name': 'stim/scrambled/car/car(7).png', 'path': 'stim/scrambled/car/car(7).png'},
+    {'name': 'stim/scrambled/car/car(8).png', 'path': 'stim/scrambled/car/car(8).png'},
+    {'name': 'stim/scrambled/car/car(9).png', 'path': 'stim/scrambled/car/car(9).png'},
+    {'name': 'stim/scrambled/car/car(10).png', 'path': 'stim/scrambled/car/car(10).png'},
+    {'name': 'stim/scrambled/butterfly/butterfly(1).png', 'path': 'stim/scrambled/butterfly/butterfly(1).png'},
+    {'name': 'stim/scrambled/butterfly/butterfly(2).png', 'path': 'stim/scrambled/butterfly/butterfly(2).png'},
+    {'name': 'stim/scrambled/butterfly/butterfly(3).png', 'path': 'stim/scrambled/butterfly/butterfly(3).png'},
+    {'name': 'stim/scrambled/butterfly/butterfly(4).png', 'path': 'stim/scrambled/butterfly/butterfly(4).png'},
+    {'name': 'stim/scrambled/butterfly/butterfly(5).png', 'path': 'stim/scrambled/butterfly/butterfly(5).png'},
+    {'name': 'stim/scrambled/butterfly/butterfly(6).png', 'path': 'stim/scrambled/butterfly/butterfly(6).png'},
+    {'name': 'stim/scrambled/butterfly/butterfly(7).png', 'path': 'stim/scrambled/butterfly/butterfly(7).png'},
+    {'name': 'stim/scrambled/butterfly/butterfly(8).png', 'path': 'stim/scrambled/butterfly/butterfly(8).png'},
+    {'name': 'stim/scrambled/butterfly/butterfly(9).png', 'path': 'stim/scrambled/butterfly/butterfly(9).png'},
+    {'name': 'stim/scrambled/butterfly/butterfly(10).png', 'path': 'stim/scrambled/butterfly/butterfly(10).png'},
+    {'name': 'stim/scrambled/bread/bread(1).png', 'path': 'stim/scrambled/bread/bread(1).png'},
+    {'name': 'stim/scrambled/bread/bread(2).png', 'path': 'stim/scrambled/bread/bread(2).png'},
+    {'name': 'stim/scrambled/bread/bread(3).png', 'path': 'stim/scrambled/bread/bread(3).png'},
+    {'name': 'stim/scrambled/bread/bread(4).png', 'path': 'stim/scrambled/bread/bread(4).png'},
+    {'name': 'stim/scrambled/bread/bread(5).png', 'path': 'stim/scrambled/bread/bread(5).png'},
+    {'name': 'stim/scrambled/bread/bread(6).png', 'path': 'stim/scrambled/bread/bread(6).png'},
+    {'name': 'stim/scrambled/bread/bread(7).png', 'path': 'stim/scrambled/bread/bread(7).png'},
+    {'name': 'stim/scrambled/bread/bread(8).png', 'path': 'stim/scrambled/bread/bread(8).png'},
+    {'name': 'stim/scrambled/bread/bread(9).png', 'path': 'stim/scrambled/bread/bread(9).png'},
+    {'name': 'stim/scrambled/bread/bread(10).png', 'path': 'stim/scrambled/bread/bread(10).png'},
+    {'name': 'stim/scrambled/binoculars/binoculars(1).png', 'path': 'stim/scrambled/binoculars/binoculars(1).png'},
+    {'name': 'stim/scrambled/binoculars/binoculars(2).png', 'path': 'stim/scrambled/binoculars/binoculars(2).png'},
+    {'name': 'stim/scrambled/binoculars/binoculars(3).png', 'path': 'stim/scrambled/binoculars/binoculars(3).png'},
+    {'name': 'stim/scrambled/binoculars/binoculars(4).png', 'path': 'stim/scrambled/binoculars/binoculars(4).png'},
+    {'name': 'stim/scrambled/binoculars/binoculars(5).png', 'path': 'stim/scrambled/binoculars/binoculars(5).png'},
+    {'name': 'stim/scrambled/binoculars/binoculars(6).png', 'path': 'stim/scrambled/binoculars/binoculars(6).png'},
+    {'name': 'stim/scrambled/binoculars/binoculars(7).png', 'path': 'stim/scrambled/binoculars/binoculars(7).png'},
+    {'name': 'stim/scrambled/binoculars/binoculars(8).png', 'path': 'stim/scrambled/binoculars/binoculars(8).png'},
+    {'name': 'stim/scrambled/binoculars/binoculars(9).png', 'path': 'stim/scrambled/binoculars/binoculars(9).png'},
+    {'name': 'stim/scrambled/binoculars/binoculars(10).png', 'path': 'stim/scrambled/binoculars/binoculars(10).png'},
+    {'name': 'stim/scrambled/bear/bear(1).png', 'path': 'stim/scrambled/bear/bear(1).png'},
+    {'name': 'stim/scrambled/bear/bear(2).png', 'path': 'stim/scrambled/bear/bear(2).png'},
+    {'name': 'stim/scrambled/bear/bear(3).png', 'path': 'stim/scrambled/bear/bear(3).png'},
+    {'name': 'stim/scrambled/bear/bear(4).png', 'path': 'stim/scrambled/bear/bear(4).png'},
+    {'name': 'stim/scrambled/bear/bear(5).png', 'path': 'stim/scrambled/bear/bear(5).png'},
+    {'name': 'stim/scrambled/bear/bear(6).png', 'path': 'stim/scrambled/bear/bear(6).png'},
+    {'name': 'stim/scrambled/bear/bear(7).png', 'path': 'stim/scrambled/bear/bear(7).png'},
+    {'name': 'stim/scrambled/bear/bear(8).png', 'path': 'stim/scrambled/bear/bear(8).png'},
+    {'name': 'stim/scrambled/bear/bear(9).png', 'path': 'stim/scrambled/bear/bear(9).png'},
+    {'name': 'stim/scrambled/bear/bear(10).png', 'path': 'stim/scrambled/bear/bear(10).png'},
+    {'name': 'stim/scrambled/avocado/avocado(1).png', 'path': 'stim/scrambled/avocado/avocado(1).png'},
+    {'name': 'stim/scrambled/avocado/avocado(2).png', 'path': 'stim/scrambled/avocado/avocado(2).png'},
+    {'name': 'stim/scrambled/avocado/avocado(3).png', 'path': 'stim/scrambled/avocado/avocado(3).png'},
+    {'name': 'stim/scrambled/avocado/avocado(4).png', 'path': 'stim/scrambled/avocado/avocado(4).png'},
+    {'name': 'stim/scrambled/avocado/avocado(5).png', 'path': 'stim/scrambled/avocado/avocado(5).png'},
+    {'name': 'stim/scrambled/avocado/avocado(6).png', 'path': 'stim/scrambled/avocado/avocado(6).png'},
+    {'name': 'stim/scrambled/avocado/avocado(7).png', 'path': 'stim/scrambled/avocado/avocado(7).png'},
+    {'name': 'stim/scrambled/avocado/avocado(8).png', 'path': 'stim/scrambled/avocado/avocado(8).png'},
+    {'name': 'stim/scrambled/avocado/avocado(9).png', 'path': 'stim/scrambled/avocado/avocado(9).png'},
+    {'name': 'stim/scrambled/avocado/avocado(10).png', 'path': 'stim/scrambled/avocado/avocado(10).png'},
+    {'name': 'stim/scrambled/apple/apple(1).png', 'path': 'stim/scrambled/apple/apple(1).png'},
+    {'name': 'stim/scrambled/apple/apple(2).png', 'path': 'stim/scrambled/apple/apple(2).png'},
+    {'name': 'stim/scrambled/apple/apple(3).png', 'path': 'stim/scrambled/apple/apple(3).png'},
+    {'name': 'stim/scrambled/apple/apple(4).png', 'path': 'stim/scrambled/apple/apple(4).png'},
+    {'name': 'stim/scrambled/apple/apple(5).png', 'path': 'stim/scrambled/apple/apple(5).png'},
+    {'name': 'stim/scrambled/apple/apple(6).png', 'path': 'stim/scrambled/apple/apple(6).png'},
+    {'name': 'stim/scrambled/apple/apple(7).png', 'path': 'stim/scrambled/apple/apple(7).png'},
+    {'name': 'stim/scrambled/apple/apple(8).png', 'path': 'stim/scrambled/apple/apple(8).png'},
+    {'name': 'stim/scrambled/apple/apple(9).png', 'path': 'stim/scrambled/apple/apple(9).png'},
+    {'name': 'stim/scrambled/apple/apple(10).png', 'path': 'stim/scrambled/apple/apple(10).png'},
+    {'name': 'stim/scrambled/airplane/airplane(1).png', 'path': 'stim/scrambled/airplane/airplane(1).png'},
+    {'name': 'stim/scrambled/airplane/airplane(2).png', 'path': 'stim/scrambled/airplane/airplane(2).png'},
+    {'name': 'stim/scrambled/airplane/airplane(3).png', 'path': 'stim/scrambled/airplane/airplane(3).png'},
+    {'name': 'stim/scrambled/airplane/airplane(4).png', 'path': 'stim/scrambled/airplane/airplane(4).png'},
+    {'name': 'stim/scrambled/airplane/airplane(5).png', 'path': 'stim/scrambled/airplane/airplane(5).png'},
+    {'name': 'stim/scrambled/airplane/airplane(6).png', 'path': 'stim/scrambled/airplane/airplane(6).png'},
+    {'name': 'stim/scrambled/airplane/airplane(7).png', 'path': 'stim/scrambled/airplane/airplane(7).png'},
+    {'name': 'stim/scrambled/airplane/airplane(8).png', 'path': 'stim/scrambled/airplane/airplane(8).png'},
+    {'name': 'stim/scrambled/airplane/airplane(9).png', 'path': 'stim/scrambled/airplane/airplane(9).png'},
+    {'name': 'stim/scrambled/airplane/airplane(10).png', 'path': 'stim/scrambled/airplane/airplane(10).png'},
+    {'name': 'stim/practice_stim/truck/truck(1).JPEG', 'path': 'stim/practice_stim/truck/truck(1).JPEG'},
+    {'name': 'stim/practice_stim/truck/truck(2).JPEG', 'path': 'stim/practice_stim/truck/truck(2).JPEG'},
+    {'name': 'stim/practice_stim/truck/truck(3).JPEG', 'path': 'stim/practice_stim/truck/truck(3).JPEG'},
+    {'name': 'stim/practice_stim/truck/truck(4).JPEG', 'path': 'stim/practice_stim/truck/truck(4).JPEG'},
+    {'name': 'stim/practice_stim/truck/truck(5).JPEG', 'path': 'stim/practice_stim/truck/truck(5).JPEG'},
+    {'name': 'stim/practice_stim/truck/truck(6).JPEG', 'path': 'stim/practice_stim/truck/truck(6).JPEG'},
+    {'name': 'stim/practice_stim/truck/truck(7).JPEG', 'path': 'stim/practice_stim/truck/truck(7).JPEG'},
+    {'name': 'stim/practice_stim/truck/truck(8).JPEG', 'path': 'stim/practice_stim/truck/truck(8).JPEG'},
+    {'name': 'stim/practice_stim/truck/truck(9).JPEG', 'path': 'stim/practice_stim/truck/truck(9).JPEG'},
+    {'name': 'stim/practice_stim/truck/truck(10).JPEG', 'path': 'stim/practice_stim/truck/truck(10).JPEG'},
+    {'name': 'stim/practice_stim/tree/tree(1).JPEG', 'path': 'stim/practice_stim/tree/tree(1).JPEG'},
+    {'name': 'stim/practice_stim/tree/tree(2).JPEG', 'path': 'stim/practice_stim/tree/tree(2).JPEG'},
+    {'name': 'stim/practice_stim/tree/tree(3).JPEG', 'path': 'stim/practice_stim/tree/tree(3).JPEG'},
+    {'name': 'stim/practice_stim/tree/tree(4).JPEG', 'path': 'stim/practice_stim/tree/tree(4).JPEG'},
+    {'name': 'stim/practice_stim/tree/tree(5).JPEG', 'path': 'stim/practice_stim/tree/tree(5).JPEG'},
+    {'name': 'stim/practice_stim/tree/tree(6).JPEG', 'path': 'stim/practice_stim/tree/tree(6).JPEG'},
+    {'name': 'stim/practice_stim/tree/tree(7).JPEG', 'path': 'stim/practice_stim/tree/tree(7).JPEG'},
+    {'name': 'stim/practice_stim/tree/tree(8).JPEG', 'path': 'stim/practice_stim/tree/tree(8).JPEG'},
+    {'name': 'stim/practice_stim/tree/tree(9).JPEG', 'path': 'stim/practice_stim/tree/tree(9).JPEG'},
+    {'name': 'stim/practice_stim/tree/tree(10).JPEG', 'path': 'stim/practice_stim/tree/tree(10).JPEG'},
+    {'name': 'stim/practice_stim/leaf/leaf(1).JPEG', 'path': 'stim/practice_stim/leaf/leaf(1).JPEG'},
+    {'name': 'stim/practice_stim/leaf/leaf(2).JPEG', 'path': 'stim/practice_stim/leaf/leaf(2).JPEG'},
+    {'name': 'stim/practice_stim/leaf/leaf(3).JPEG', 'path': 'stim/practice_stim/leaf/leaf(3).JPEG'},
+    {'name': 'stim/practice_stim/leaf/leaf(4).JPEG', 'path': 'stim/practice_stim/leaf/leaf(4).JPEG'},
+    {'name': 'stim/practice_stim/leaf/leaf(5).JPEG', 'path': 'stim/practice_stim/leaf/leaf(5).JPEG'},
+    {'name': 'stim/practice_stim/leaf/leaf(6).JPEG', 'path': 'stim/practice_stim/leaf/leaf(6).JPEG'},
+    {'name': 'stim/practice_stim/leaf/leaf(7).JPEG', 'path': 'stim/practice_stim/leaf/leaf(7).JPEG'},
+    {'name': 'stim/practice_stim/leaf/leaf(8).JPEG', 'path': 'stim/practice_stim/leaf/leaf(8).JPEG'},
+    {'name': 'stim/practice_stim/leaf/leaf(9).JPEG', 'path': 'stim/practice_stim/leaf/leaf(9).JPEG'},
+    {'name': 'stim/practice_stim/leaf/leaf(10).JPEG', 'path': 'stim/practice_stim/leaf/leaf(10).JPEG'},
+    {'name': 'stim/practice_stim/hand/hand(1).JPEG', 'path': 'stim/practice_stim/hand/hand(1).JPEG'},
+    {'name': 'stim/practice_stim/hand/hand(2).JPEG', 'path': 'stim/practice_stim/hand/hand(2).JPEG'},
+    {'name': 'stim/practice_stim/hand/hand(3).JPEG', 'path': 'stim/practice_stim/hand/hand(3).JPEG'},
+    {'name': 'stim/practice_stim/hand/hand(4).JPEG', 'path': 'stim/practice_stim/hand/hand(4).JPEG'},
+    {'name': 'stim/practice_stim/hand/hand(5).JPEG', 'path': 'stim/practice_stim/hand/hand(5).JPEG'},
+    {'name': 'stim/practice_stim/hand/hand(6).JPEG', 'path': 'stim/practice_stim/hand/hand(6).JPEG'},
+    {'name': 'stim/practice_stim/hand/hand(7).JPEG', 'path': 'stim/practice_stim/hand/hand(7).JPEG'},
+    {'name': 'stim/practice_stim/hand/hand(8).JPEG', 'path': 'stim/practice_stim/hand/hand(8).JPEG'},
+    {'name': 'stim/practice_stim/hand/hand(9).JPEG', 'path': 'stim/practice_stim/hand/hand(9).JPEG'},
+    {'name': 'stim/practice_stim/hand/hand(10).JPEG', 'path': 'stim/practice_stim/hand/hand(10).JPEG'},
+    {'name': 'stim/practice_stim/flower/flower(1).JPEG', 'path': 'stim/practice_stim/flower/flower(1).JPEG'},
+    {'name': 'stim/practice_stim/flower/flower(2).JPEG', 'path': 'stim/practice_stim/flower/flower(2).JPEG'},
+    {'name': 'stim/practice_stim/flower/flower(3).JPEG', 'path': 'stim/practice_stim/flower/flower(3).JPEG'},
+    {'name': 'stim/practice_stim/flower/flower(4).JPEG', 'path': 'stim/practice_stim/flower/flower(4).JPEG'},
+    {'name': 'stim/practice_stim/flower/flower(5).JPEG', 'path': 'stim/practice_stim/flower/flower(5).JPEG'},
+    {'name': 'stim/practice_stim/flower/flower(6).JPEG', 'path': 'stim/practice_stim/flower/flower(6).JPEG'},
+    {'name': 'stim/practice_stim/flower/flower(7).JPEG', 'path': 'stim/practice_stim/flower/flower(7).JPEG'},
+    {'name': 'stim/practice_stim/flower/flower(8).JPEG', 'path': 'stim/practice_stim/flower/flower(8).JPEG'},
+    {'name': 'stim/practice_stim/flower/flower(9).JPEG', 'path': 'stim/practice_stim/flower/flower(9).JPEG'},
+    {'name': 'stim/practice_stim/flower/flower(10).JPEG', 'path': 'stim/practice_stim/flower/flower(10).JPEG'},
+    {'name': 'stim/practice_stim/duck/duck(1).JPEG', 'path': 'stim/practice_stim/duck/duck(1).JPEG'},
+    {'name': 'stim/practice_stim/duck/duck(2).JPEG', 'path': 'stim/practice_stim/duck/duck(2).JPEG'},
+    {'name': 'stim/practice_stim/duck/duck(3).JPEG', 'path': 'stim/practice_stim/duck/duck(3).JPEG'},
+    {'name': 'stim/practice_stim/duck/duck(4).JPEG', 'path': 'stim/practice_stim/duck/duck(4).JPEG'},
+    {'name': 'stim/practice_stim/duck/duck(5).JPEG', 'path': 'stim/practice_stim/duck/duck(5).JPEG'},
+    {'name': 'stim/practice_stim/duck/duck(6).JPEG', 'path': 'stim/practice_stim/duck/duck(6).JPEG'},
+    {'name': 'stim/practice_stim/duck/duck(7).JPEG', 'path': 'stim/practice_stim/duck/duck(7).JPEG'},
+    {'name': 'stim/practice_stim/duck/duck(8).JPEG', 'path': 'stim/practice_stim/duck/duck(8).JPEG'},
+    {'name': 'stim/practice_stim/duck/duck(9).JPEG', 'path': 'stim/practice_stim/duck/duck(9).JPEG'},
+    {'name': 'stim/practice_stim/duck/duck(10).JPEG', 'path': 'stim/practice_stim/duck/duck(10).JPEG'},
+    {'name': 'stim/practice_stim/dog/dog(1).JPEG', 'path': 'stim/practice_stim/dog/dog(1).JPEG'},
+    {'name': 'stim/practice_stim/dog/dog(2).JPEG', 'path': 'stim/practice_stim/dog/dog(2).JPEG'},
+    {'name': 'stim/practice_stim/dog/dog(3).JPEG', 'path': 'stim/practice_stim/dog/dog(3).JPEG'},
+    {'name': 'stim/practice_stim/dog/dog(4).JPEG', 'path': 'stim/practice_stim/dog/dog(4).JPEG'},
+    {'name': 'stim/practice_stim/dog/dog(5).JPEG', 'path': 'stim/practice_stim/dog/dog(5).JPEG'},
+    {'name': 'stim/practice_stim/dog/dog(6).JPEG', 'path': 'stim/practice_stim/dog/dog(6).JPEG'},
+    {'name': 'stim/practice_stim/dog/dog(7).JPEG', 'path': 'stim/practice_stim/dog/dog(7).JPEG'},
+    {'name': 'stim/practice_stim/dog/dog(8).JPEG', 'path': 'stim/practice_stim/dog/dog(8).JPEG'},
+    {'name': 'stim/practice_stim/dog/dog(9).JPEG', 'path': 'stim/practice_stim/dog/dog(9).JPEG'},
+    {'name': 'stim/practice_stim/dog/dog(10).JPEG', 'path': 'stim/practice_stim/dog/dog(10).JPEG'},
+    {'name': 'stim/practice_stim/chair/chair(1).JPEG', 'path': 'stim/practice_stim/chair/chair(1).JPEG'},
+    {'name': 'stim/practice_stim/chair/chair(2).JPEG', 'path': 'stim/practice_stim/chair/chair(2).JPEG'},
+    {'name': 'stim/practice_stim/chair/chair(3).JPEG', 'path': 'stim/practice_stim/chair/chair(3).JPEG'},
+    {'name': 'stim/practice_stim/chair/chair(4).JPEG', 'path': 'stim/practice_stim/chair/chair(4).JPEG'},
+    {'name': 'stim/practice_stim/chair/chair(5).JPEG', 'path': 'stim/practice_stim/chair/chair(5).JPEG'},
+    {'name': 'stim/practice_stim/chair/chair(6).JPEG', 'path': 'stim/practice_stim/chair/chair(6).JPEG'},
+    {'name': 'stim/practice_stim/chair/chair(7).JPEG', 'path': 'stim/practice_stim/chair/chair(7).JPEG'},
+    {'name': 'stim/practice_stim/chair/chair(8).JPEG', 'path': 'stim/practice_stim/chair/chair(8).JPEG'},
+    {'name': 'stim/practice_stim/chair/chair(9).JPEG', 'path': 'stim/practice_stim/chair/chair(9).JPEG'},
+    {'name': 'stim/practice_stim/chair/chair(10).JPEG', 'path': 'stim/practice_stim/chair/chair(10).JPEG'},
+    {'name': 'stim/practice_stim/bicycle/bicycle(1).JPEG', 'path': 'stim/practice_stim/bicycle/bicycle(1).JPEG'},
+    {'name': 'stim/practice_stim/bicycle/bicycle(2).JPEG', 'path': 'stim/practice_stim/bicycle/bicycle(2).JPEG'},
+    {'name': 'stim/practice_stim/bicycle/bicycle(3).JPEG', 'path': 'stim/practice_stim/bicycle/bicycle(3).JPEG'},
+    {'name': 'stim/practice_stim/bicycle/bicycle(4).JPEG', 'path': 'stim/practice_stim/bicycle/bicycle(4).JPEG'},
+    {'name': 'stim/practice_stim/bicycle/bicycle(5).JPEG', 'path': 'stim/practice_stim/bicycle/bicycle(5).JPEG'},
+    {'name': 'stim/practice_stim/bicycle/bicycle(6).JPEG', 'path': 'stim/practice_stim/bicycle/bicycle(6).JPEG'},
+    {'name': 'stim/practice_stim/bicycle/bicycle(7).JPEG', 'path': 'stim/practice_stim/bicycle/bicycle(7).JPEG'},
+    {'name': 'stim/practice_stim/bicycle/bicycle(8).JPEG', 'path': 'stim/practice_stim/bicycle/bicycle(8).JPEG'},
+    {'name': 'stim/practice_stim/bicycle/bicycle(9).JPEG', 'path': 'stim/practice_stim/bicycle/bicycle(9).JPEG'},
+    {'name': 'stim/practice_stim/bicycle/bicycle(10).JPEG', 'path': 'stim/practice_stim/bicycle/bicycle(10).JPEG'},
+    {'name': 'stim/natural/prac_image.png', 'path': 'stim/natural/prac_image.png'},
+    {'name': 'stim/natural/train/train(1).png', 'path': 'stim/natural/train/train(1).png'},
+    {'name': 'stim/natural/train/train(2).png', 'path': 'stim/natural/train/train(2).png'},
+    {'name': 'stim/natural/train/train(3).png', 'path': 'stim/natural/train/train(3).png'},
+    {'name': 'stim/natural/train/train(4).png', 'path': 'stim/natural/train/train(4).png'},
+    {'name': 'stim/natural/train/train(5).png', 'path': 'stim/natural/train/train(5).png'},
+    {'name': 'stim/natural/train/train(6).png', 'path': 'stim/natural/train/train(6).png'},
+    {'name': 'stim/natural/train/train(7).png', 'path': 'stim/natural/train/train(7).png'},
+    {'name': 'stim/natural/train/train(8).png', 'path': 'stim/natural/train/train(8).png'},
+    {'name': 'stim/natural/train/train(9).png', 'path': 'stim/natural/train/train(9).png'},
+    {'name': 'stim/natural/train/train(10).png', 'path': 'stim/natural/train/train(10).png'},
+    {'name': 'stim/natural/snail/snail(1).png', 'path': 'stim/natural/snail/snail(1).png'},
+    {'name': 'stim/natural/snail/snail(2).png', 'path': 'stim/natural/snail/snail(2).png'},
+    {'name': 'stim/natural/snail/snail(3).png', 'path': 'stim/natural/snail/snail(3).png'},
+    {'name': 'stim/natural/snail/snail(4).png', 'path': 'stim/natural/snail/snail(4).png'},
+    {'name': 'stim/natural/snail/snail(5).png', 'path': 'stim/natural/snail/snail(5).png'},
+    {'name': 'stim/natural/snail/snail(6).png', 'path': 'stim/natural/snail/snail(6).png'},
+    {'name': 'stim/natural/snail/snail(7).png', 'path': 'stim/natural/snail/snail(7).png'},
+    {'name': 'stim/natural/snail/snail(8).png', 'path': 'stim/natural/snail/snail(8).png'},
+    {'name': 'stim/natural/snail/snail(9).png', 'path': 'stim/natural/snail/snail(9).png'},
+    {'name': 'stim/natural/snail/snail(10).png', 'path': 'stim/natural/snail/snail(10).png'},
+    {'name': 'stim/natural/pineapple/pineapple(1).png', 'path': 'stim/natural/pineapple/pineapple(1).png'},
+    {'name': 'stim/natural/pineapple/pineapple(2).png', 'path': 'stim/natural/pineapple/pineapple(2).png'},
+    {'name': 'stim/natural/pineapple/pineapple(3).png', 'path': 'stim/natural/pineapple/pineapple(3).png'},
+    {'name': 'stim/natural/pineapple/pineapple(4).png', 'path': 'stim/natural/pineapple/pineapple(4).png'},
+    {'name': 'stim/natural/pineapple/pineapple(5).png', 'path': 'stim/natural/pineapple/pineapple(5).png'},
+    {'name': 'stim/natural/pineapple/pineapple(6).png', 'path': 'stim/natural/pineapple/pineapple(6).png'},
+    {'name': 'stim/natural/pineapple/pineapple(7).png', 'path': 'stim/natural/pineapple/pineapple(7).png'},
+    {'name': 'stim/natural/pineapple/pineapple(8).png', 'path': 'stim/natural/pineapple/pineapple(8).png'},
+    {'name': 'stim/natural/pineapple/pineapple(9).png', 'path': 'stim/natural/pineapple/pineapple(9).png'},
+    {'name': 'stim/natural/pineapple/pineapple(10).png', 'path': 'stim/natural/pineapple/pineapple(10).png'},
+    {'name': 'stim/natural/mushroom/mushroom(1).png', 'path': 'stim/natural/mushroom/mushroom(1).png'},
+    {'name': 'stim/natural/mushroom/mushroom(2).png', 'path': 'stim/natural/mushroom/mushroom(2).png'},
+    {'name': 'stim/natural/mushroom/mushroom(3).png', 'path': 'stim/natural/mushroom/mushroom(3).png'},
+    {'name': 'stim/natural/mushroom/mushroom(4).png', 'path': 'stim/natural/mushroom/mushroom(4).png'},
+    {'name': 'stim/natural/mushroom/mushroom(5).png', 'path': 'stim/natural/mushroom/mushroom(5).png'},
+    {'name': 'stim/natural/mushroom/mushroom(6).png', 'path': 'stim/natural/mushroom/mushroom(6).png'},
+    {'name': 'stim/natural/mushroom/mushroom(7).png', 'path': 'stim/natural/mushroom/mushroom(7).png'},
+    {'name': 'stim/natural/mushroom/mushroom(8).png', 'path': 'stim/natural/mushroom/mushroom(8).png'},
+    {'name': 'stim/natural/mushroom/mushroom(9).png', 'path': 'stim/natural/mushroom/mushroom(9).png'},
+    {'name': 'stim/natural/mushroom/mushroom(10).png', 'path': 'stim/natural/mushroom/mushroom(10).png'},
+    {'name': 'stim/natural/lawnmower/lawnmower(1).png', 'path': 'stim/natural/lawnmower/lawnmower(1).png'},
+    {'name': 'stim/natural/lawnmower/lawnmower(2).png', 'path': 'stim/natural/lawnmower/lawnmower(2).png'},
+    {'name': 'stim/natural/lawnmower/lawnmower(3).png', 'path': 'stim/natural/lawnmower/lawnmower(3).png'},
+    {'name': 'stim/natural/lawnmower/lawnmower(4).png', 'path': 'stim/natural/lawnmower/lawnmower(4).png'},
+    {'name': 'stim/natural/lawnmower/lawnmower(5).png', 'path': 'stim/natural/lawnmower/lawnmower(5).png'},
+    {'name': 'stim/natural/lawnmower/lawnmower(6).png', 'path': 'stim/natural/lawnmower/lawnmower(6).png'},
+    {'name': 'stim/natural/lawnmower/lawnmower(7).png', 'path': 'stim/natural/lawnmower/lawnmower(7).png'},
+    {'name': 'stim/natural/lawnmower/lawnmower(8).png', 'path': 'stim/natural/lawnmower/lawnmower(8).png'},
+    {'name': 'stim/natural/lawnmower/lawnmower(9).png', 'path': 'stim/natural/lawnmower/lawnmower(9).png'},
+    {'name': 'stim/natural/lawnmower/lawnmower(10).png', 'path': 'stim/natural/lawnmower/lawnmower(10).png'},
+    {'name': 'stim/natural/house/house(1).png', 'path': 'stim/natural/house/house(1).png'},
+    {'name': 'stim/natural/house/house(2).png', 'path': 'stim/natural/house/house(2).png'},
+    {'name': 'stim/natural/house/house(3).png', 'path': 'stim/natural/house/house(3).png'},
+    {'name': 'stim/natural/house/house(4).png', 'path': 'stim/natural/house/house(4).png'},
+    {'name': 'stim/natural/house/house(5).png', 'path': 'stim/natural/house/house(5).png'},
+    {'name': 'stim/natural/house/house(6).png', 'path': 'stim/natural/house/house(6).png'},
+    {'name': 'stim/natural/house/house(7).png', 'path': 'stim/natural/house/house(7).png'},
+    {'name': 'stim/natural/house/house(8).png', 'path': 'stim/natural/house/house(8).png'},
+    {'name': 'stim/natural/house/house(9).png', 'path': 'stim/natural/house/house(9).png'},
+    {'name': 'stim/natural/house/house(10).png', 'path': 'stim/natural/house/house(10).png'},
+    {'name': 'stim/natural/dog/dog(1).png', 'path': 'stim/natural/dog/dog(1).png'},
+    {'name': 'stim/natural/dog/dog(2).png', 'path': 'stim/natural/dog/dog(2).png'},
+    {'name': 'stim/natural/dog/dog(3).png', 'path': 'stim/natural/dog/dog(3).png'},
+    {'name': 'stim/natural/dog/dog(4).png', 'path': 'stim/natural/dog/dog(4).png'},
+    {'name': 'stim/natural/dog/dog(5).png', 'path': 'stim/natural/dog/dog(5).png'},
+    {'name': 'stim/natural/dog/dog(6).png', 'path': 'stim/natural/dog/dog(6).png'},
+    {'name': 'stim/natural/dog/dog(7).png', 'path': 'stim/natural/dog/dog(7).png'},
+    {'name': 'stim/natural/dog/dog(8).png', 'path': 'stim/natural/dog/dog(8).png'},
+    {'name': 'stim/natural/dog/dog(9).png', 'path': 'stim/natural/dog/dog(9).png'},
+    {'name': 'stim/natural/dog/dog(10).png', 'path': 'stim/natural/dog/dog(10).png'},
+    {'name': 'stim/natural/cow/cow(1).png', 'path': 'stim/natural/cow/cow(1).png'},
+    {'name': 'stim/natural/cow/cow(2).png', 'path': 'stim/natural/cow/cow(2).png'},
+    {'name': 'stim/natural/cow/cow(3).png', 'path': 'stim/natural/cow/cow(3).png'},
+    {'name': 'stim/natural/cow/cow(4).png', 'path': 'stim/natural/cow/cow(4).png'},
+    {'name': 'stim/natural/cow/cow(5).png', 'path': 'stim/natural/cow/cow(5).png'},
+    {'name': 'stim/natural/cow/cow(6).png', 'path': 'stim/natural/cow/cow(6).png'},
+    {'name': 'stim/natural/cow/cow(7).png', 'path': 'stim/natural/cow/cow(7).png'},
+    {'name': 'stim/natural/cow/cow(8).png', 'path': 'stim/natural/cow/cow(8).png'},
+    {'name': 'stim/natural/cow/cow(9).png', 'path': 'stim/natural/cow/cow(9).png'},
+    {'name': 'stim/natural/cow/cow(10).png', 'path': 'stim/natural/cow/cow(10).png'},
+    {'name': 'stim/natural/corn/corn(1).png', 'path': 'stim/natural/corn/corn(1).png'},
+    {'name': 'stim/natural/corn/corn(2).png', 'path': 'stim/natural/corn/corn(2).png'},
+    {'name': 'stim/natural/corn/corn(3).png', 'path': 'stim/natural/corn/corn(3).png'},
+    {'name': 'stim/natural/corn/corn(4).png', 'path': 'stim/natural/corn/corn(4).png'},
+    {'name': 'stim/natural/corn/corn(5).png', 'path': 'stim/natural/corn/corn(5).png'},
+    {'name': 'stim/natural/corn/corn(6).png', 'path': 'stim/natural/corn/corn(6).png'},
+    {'name': 'stim/natural/corn/corn(7).png', 'path': 'stim/natural/corn/corn(7).png'},
+    {'name': 'stim/natural/corn/corn(8).png', 'path': 'stim/natural/corn/corn(8).png'},
+    {'name': 'stim/natural/corn/corn(9).png', 'path': 'stim/natural/corn/corn(9).png'},
+    {'name': 'stim/natural/corn/corn(10).png', 'path': 'stim/natural/corn/corn(10).png'},
+    {'name': 'stim/natural/cat/cat(1).png', 'path': 'stim/natural/cat/cat(1).png'},
+    {'name': 'stim/natural/cat/cat(2).png', 'path': 'stim/natural/cat/cat(2).png'},
+    {'name': 'stim/natural/cat/cat(3).png', 'path': 'stim/natural/cat/cat(3).png'},
+    {'name': 'stim/natural/cat/cat(4).png', 'path': 'stim/natural/cat/cat(4).png'},
+    {'name': 'stim/natural/cat/cat(5).png', 'path': 'stim/natural/cat/cat(5).png'},
+    {'name': 'stim/natural/cat/cat(6).png', 'path': 'stim/natural/cat/cat(6).png'},
+    {'name': 'stim/natural/cat/cat(7).png', 'path': 'stim/natural/cat/cat(7).png'},
+    {'name': 'stim/natural/cat/cat(8).png', 'path': 'stim/natural/cat/cat(8).png'},
+    {'name': 'stim/natural/cat/cat(9).png', 'path': 'stim/natural/cat/cat(9).png'},
+    {'name': 'stim/natural/cat/cat(10).png', 'path': 'stim/natural/cat/cat(10).png'},
+    {'name': 'stim/natural/car/car(1).png', 'path': 'stim/natural/car/car(1).png'},
+    {'name': 'stim/natural/car/car(2).png', 'path': 'stim/natural/car/car(2).png'},
+    {'name': 'stim/natural/car/car(3).png', 'path': 'stim/natural/car/car(3).png'},
+    {'name': 'stim/natural/car/car(4).png', 'path': 'stim/natural/car/car(4).png'},
+    {'name': 'stim/natural/car/car(5).png', 'path': 'stim/natural/car/car(5).png'},
+    {'name': 'stim/natural/car/car(6).png', 'path': 'stim/natural/car/car(6).png'},
+    {'name': 'stim/natural/car/car(7).png', 'path': 'stim/natural/car/car(7).png'},
+    {'name': 'stim/natural/car/car(8).png', 'path': 'stim/natural/car/car(8).png'},
+    {'name': 'stim/natural/car/car(9).png', 'path': 'stim/natural/car/car(9).png'},
+    {'name': 'stim/natural/car/car(10).png', 'path': 'stim/natural/car/car(10).png'},
+    {'name': 'stim/natural/butterfly/butterfly(1).png', 'path': 'stim/natural/butterfly/butterfly(1).png'},
+    {'name': 'stim/natural/butterfly/butterfly(2).png', 'path': 'stim/natural/butterfly/butterfly(2).png'},
+    {'name': 'stim/natural/butterfly/butterfly(3).png', 'path': 'stim/natural/butterfly/butterfly(3).png'},
+    {'name': 'stim/natural/butterfly/butterfly(4).png', 'path': 'stim/natural/butterfly/butterfly(4).png'},
+    {'name': 'stim/natural/butterfly/butterfly(5).png', 'path': 'stim/natural/butterfly/butterfly(5).png'},
+    {'name': 'stim/natural/butterfly/butterfly(6).png', 'path': 'stim/natural/butterfly/butterfly(6).png'},
+    {'name': 'stim/natural/butterfly/butterfly(7).png', 'path': 'stim/natural/butterfly/butterfly(7).png'},
+    {'name': 'stim/natural/butterfly/butterfly(8).png', 'path': 'stim/natural/butterfly/butterfly(8).png'},
+    {'name': 'stim/natural/butterfly/butterfly(9).png', 'path': 'stim/natural/butterfly/butterfly(9).png'},
+    {'name': 'stim/natural/butterfly/butterfly(10).png', 'path': 'stim/natural/butterfly/butterfly(10).png'},
+    {'name': 'stim/natural/bread/bread(1).png', 'path': 'stim/natural/bread/bread(1).png'},
+    {'name': 'stim/natural/bread/bread(2).png', 'path': 'stim/natural/bread/bread(2).png'},
+    {'name': 'stim/natural/bread/bread(3).png', 'path': 'stim/natural/bread/bread(3).png'},
+    {'name': 'stim/natural/bread/bread(4).png', 'path': 'stim/natural/bread/bread(4).png'},
+    {'name': 'stim/natural/bread/bread(5).png', 'path': 'stim/natural/bread/bread(5).png'},
+    {'name': 'stim/natural/bread/bread(6).png', 'path': 'stim/natural/bread/bread(6).png'},
+    {'name': 'stim/natural/bread/bread(7).png', 'path': 'stim/natural/bread/bread(7).png'},
+    {'name': 'stim/natural/bread/bread(8).png', 'path': 'stim/natural/bread/bread(8).png'},
+    {'name': 'stim/natural/bread/bread(9).png', 'path': 'stim/natural/bread/bread(9).png'},
+    {'name': 'stim/natural/bread/bread(10).png', 'path': 'stim/natural/bread/bread(10).png'},
+    {'name': 'stim/natural/binoculars/binoculars(1).png', 'path': 'stim/natural/binoculars/binoculars(1).png'},
+    {'name': 'stim/natural/binoculars/binoculars(2).png', 'path': 'stim/natural/binoculars/binoculars(2).png'},
+    {'name': 'stim/natural/binoculars/binoculars(3).png', 'path': 'stim/natural/binoculars/binoculars(3).png'},
+    {'name': 'stim/natural/binoculars/binoculars(4).png', 'path': 'stim/natural/binoculars/binoculars(4).png'},
+    {'name': 'stim/natural/binoculars/binoculars(5).png', 'path': 'stim/natural/binoculars/binoculars(5).png'},
+    {'name': 'stim/natural/binoculars/binoculars(6).png', 'path': 'stim/natural/binoculars/binoculars(6).png'},
+    {'name': 'stim/natural/binoculars/binoculars(7).png', 'path': 'stim/natural/binoculars/binoculars(7).png'},
+    {'name': 'stim/natural/binoculars/binoculars(8).png', 'path': 'stim/natural/binoculars/binoculars(8).png'},
+    {'name': 'stim/natural/binoculars/binoculars(9).png', 'path': 'stim/natural/binoculars/binoculars(9).png'},
+    {'name': 'stim/natural/binoculars/binoculars(10).png', 'path': 'stim/natural/binoculars/binoculars(10).png'},
+    {'name': 'stim/natural/bear/bear(1).png', 'path': 'stim/natural/bear/bear(1).png'},
+    {'name': 'stim/natural/bear/bear(2).png', 'path': 'stim/natural/bear/bear(2).png'},
+    {'name': 'stim/natural/bear/bear(3).png', 'path': 'stim/natural/bear/bear(3).png'},
+    {'name': 'stim/natural/bear/bear(4).png', 'path': 'stim/natural/bear/bear(4).png'},
+    {'name': 'stim/natural/bear/bear(5).png', 'path': 'stim/natural/bear/bear(5).png'},
+    {'name': 'stim/natural/bear/bear(6).png', 'path': 'stim/natural/bear/bear(6).png'},
+    {'name': 'stim/natural/bear/bear(7).png', 'path': 'stim/natural/bear/bear(7).png'},
+    {'name': 'stim/natural/bear/bear(8).png', 'path': 'stim/natural/bear/bear(8).png'},
+    {'name': 'stim/natural/bear/bear(9).png', 'path': 'stim/natural/bear/bear(9).png'},
+    {'name': 'stim/natural/bear/bear(10).png', 'path': 'stim/natural/bear/bear(10).png'},
+    {'name': 'stim/natural/avocado/avocado(1).png', 'path': 'stim/natural/avocado/avocado(1).png'},
+    {'name': 'stim/natural/avocado/avocado(2).png', 'path': 'stim/natural/avocado/avocado(2).png'},
+    {'name': 'stim/natural/avocado/avocado(3).png', 'path': 'stim/natural/avocado/avocado(3).png'},
+    {'name': 'stim/natural/avocado/avocado(4).png', 'path': 'stim/natural/avocado/avocado(4).png'},
+    {'name': 'stim/natural/avocado/avocado(5).png', 'path': 'stim/natural/avocado/avocado(5).png'},
+    {'name': 'stim/natural/avocado/avocado(6).png', 'path': 'stim/natural/avocado/avocado(6).png'},
+    {'name': 'stim/natural/avocado/avocado(7).png', 'path': 'stim/natural/avocado/avocado(7).png'},
+    {'name': 'stim/natural/avocado/avocado(8).png', 'path': 'stim/natural/avocado/avocado(8).png'},
+    {'name': 'stim/natural/avocado/avocado(9).png', 'path': 'stim/natural/avocado/avocado(9).png'},
+    {'name': 'stim/natural/avocado/avocado(10).png', 'path': 'stim/natural/avocado/avocado(10).png'},
+    {'name': 'stim/natural/apple/apple(1).png', 'path': 'stim/natural/apple/apple(1).png'},
+    {'name': 'stim/natural/apple/apple(2).png', 'path': 'stim/natural/apple/apple(2).png'},
+    {'name': 'stim/natural/apple/apple(3).png', 'path': 'stim/natural/apple/apple(3).png'},
+    {'name': 'stim/natural/apple/apple(4).png', 'path': 'stim/natural/apple/apple(4).png'},
+    {'name': 'stim/natural/apple/apple(5).png', 'path': 'stim/natural/apple/apple(5).png'},
+    {'name': 'stim/natural/apple/apple(6).png', 'path': 'stim/natural/apple/apple(6).png'},
+    {'name': 'stim/natural/apple/apple(7).png', 'path': 'stim/natural/apple/apple(7).png'},
+    {'name': 'stim/natural/apple/apple(8).png', 'path': 'stim/natural/apple/apple(8).png'},
+    {'name': 'stim/natural/apple/apple(9).png', 'path': 'stim/natural/apple/apple(9).png'},
+    {'name': 'stim/natural/apple/apple(10).png', 'path': 'stim/natural/apple/apple(10).png'},
+    {'name': 'stim/natural/airplane/airplane(1).png', 'path': 'stim/natural/airplane/airplane(1).png'},
+    {'name': 'stim/natural/airplane/airplane(2).png', 'path': 'stim/natural/airplane/airplane(2).png'},
+    {'name': 'stim/natural/airplane/airplane(3).png', 'path': 'stim/natural/airplane/airplane(3).png'},
+    {'name': 'stim/natural/airplane/airplane(4).png', 'path': 'stim/natural/airplane/airplane(4).png'},
+    {'name': 'stim/natural/airplane/airplane(5).png', 'path': 'stim/natural/airplane/airplane(5).png'},
+    {'name': 'stim/natural/airplane/airplane(6).png', 'path': 'stim/natural/airplane/airplane(6).png'},
+    {'name': 'stim/natural/airplane/airplane(7).png', 'path': 'stim/natural/airplane/airplane(7).png'},
+    {'name': 'stim/natural/airplane/airplane(8).png', 'path': 'stim/natural/airplane/airplane(8).png'},
+    {'name': 'stim/natural/airplane/airplane(9).png', 'path': 'stim/natural/airplane/airplane(9).png'},
+    {'name': 'stim/natural/airplane/airplane(10).png', 'path': 'stim/natural/airplane/airplane(10).png'},
+    {'name': 'stim/line_drawing/prac_image.png', 'path': 'stim/line_drawing/prac_image.png'},
+    {'name': 'stim/line_drawing/train/train(1).png', 'path': 'stim/line_drawing/train/train(1).png'},
+    {'name': 'stim/line_drawing/train/train(2).png', 'path': 'stim/line_drawing/train/train(2).png'},
+    {'name': 'stim/line_drawing/train/train(3).png', 'path': 'stim/line_drawing/train/train(3).png'},
+    {'name': 'stim/line_drawing/train/train(4).png', 'path': 'stim/line_drawing/train/train(4).png'},
+    {'name': 'stim/line_drawing/train/train(5).png', 'path': 'stim/line_drawing/train/train(5).png'},
+    {'name': 'stim/line_drawing/train/train(6).png', 'path': 'stim/line_drawing/train/train(6).png'},
+    {'name': 'stim/line_drawing/train/train(7).png', 'path': 'stim/line_drawing/train/train(7).png'},
+    {'name': 'stim/line_drawing/train/train(8).png', 'path': 'stim/line_drawing/train/train(8).png'},
+    {'name': 'stim/line_drawing/train/train(9).png', 'path': 'stim/line_drawing/train/train(9).png'},
+    {'name': 'stim/line_drawing/train/train(10).png', 'path': 'stim/line_drawing/train/train(10).png'},
+    {'name': 'stim/line_drawing/snail/snail(1).png', 'path': 'stim/line_drawing/snail/snail(1).png'},
+    {'name': 'stim/line_drawing/snail/snail(2).png', 'path': 'stim/line_drawing/snail/snail(2).png'},
+    {'name': 'stim/line_drawing/snail/snail(3).png', 'path': 'stim/line_drawing/snail/snail(3).png'},
+    {'name': 'stim/line_drawing/snail/snail(4).png', 'path': 'stim/line_drawing/snail/snail(4).png'},
+    {'name': 'stim/line_drawing/snail/snail(5).png', 'path': 'stim/line_drawing/snail/snail(5).png'},
+    {'name': 'stim/line_drawing/snail/snail(6).png', 'path': 'stim/line_drawing/snail/snail(6).png'},
+    {'name': 'stim/line_drawing/snail/snail(7).png', 'path': 'stim/line_drawing/snail/snail(7).png'},
+    {'name': 'stim/line_drawing/snail/snail(8).png', 'path': 'stim/line_drawing/snail/snail(8).png'},
+    {'name': 'stim/line_drawing/snail/snail(9).png', 'path': 'stim/line_drawing/snail/snail(9).png'},
+    {'name': 'stim/line_drawing/snail/snail(10).png', 'path': 'stim/line_drawing/snail/snail(10).png'},
+    {'name': 'stim/line_drawing/pineapple/pineapple(1).png', 'path': 'stim/line_drawing/pineapple/pineapple(1).png'},
+    {'name': 'stim/line_drawing/pineapple/pineapple(2).png', 'path': 'stim/line_drawing/pineapple/pineapple(2).png'},
+    {'name': 'stim/line_drawing/pineapple/pineapple(3).png', 'path': 'stim/line_drawing/pineapple/pineapple(3).png'},
+    {'name': 'stim/line_drawing/pineapple/pineapple(4).png', 'path': 'stim/line_drawing/pineapple/pineapple(4).png'},
+    {'name': 'stim/line_drawing/pineapple/pineapple(5).png', 'path': 'stim/line_drawing/pineapple/pineapple(5).png'},
+    {'name': 'stim/line_drawing/pineapple/pineapple(6).png', 'path': 'stim/line_drawing/pineapple/pineapple(6).png'},
+    {'name': 'stim/line_drawing/pineapple/pineapple(7).png', 'path': 'stim/line_drawing/pineapple/pineapple(7).png'},
+    {'name': 'stim/line_drawing/pineapple/pineapple(8).png', 'path': 'stim/line_drawing/pineapple/pineapple(8).png'},
+    {'name': 'stim/line_drawing/pineapple/pineapple(9).png', 'path': 'stim/line_drawing/pineapple/pineapple(9).png'},
+    {'name': 'stim/line_drawing/pineapple/pineapple(10).png', 'path': 'stim/line_drawing/pineapple/pineapple(10).png'},
+    {'name': 'stim/line_drawing/mushroom/mushroom(1).png', 'path': 'stim/line_drawing/mushroom/mushroom(1).png'},
+    {'name': 'stim/line_drawing/mushroom/mushroom(2).png', 'path': 'stim/line_drawing/mushroom/mushroom(2).png'},
+    {'name': 'stim/line_drawing/mushroom/mushroom(3).png', 'path': 'stim/line_drawing/mushroom/mushroom(3).png'},
+    {'name': 'stim/line_drawing/mushroom/mushroom(4).png', 'path': 'stim/line_drawing/mushroom/mushroom(4).png'},
+    {'name': 'stim/line_drawing/mushroom/mushroom(5).png', 'path': 'stim/line_drawing/mushroom/mushroom(5).png'},
+    {'name': 'stim/line_drawing/mushroom/mushroom(6).png', 'path': 'stim/line_drawing/mushroom/mushroom(6).png'},
+    {'name': 'stim/line_drawing/mushroom/mushroom(7).png', 'path': 'stim/line_drawing/mushroom/mushroom(7).png'},
+    {'name': 'stim/line_drawing/mushroom/mushroom(8).png', 'path': 'stim/line_drawing/mushroom/mushroom(8).png'},
+    {'name': 'stim/line_drawing/mushroom/mushroom(9).png', 'path': 'stim/line_drawing/mushroom/mushroom(9).png'},
+    {'name': 'stim/line_drawing/mushroom/mushroom(10).png', 'path': 'stim/line_drawing/mushroom/mushroom(10).png'},
+    {'name': 'stim/line_drawing/lawnmower/lawnmower(1).png', 'path': 'stim/line_drawing/lawnmower/lawnmower(1).png'},
+    {'name': 'stim/line_drawing/lawnmower/lawnmower(2).png', 'path': 'stim/line_drawing/lawnmower/lawnmower(2).png'},
+    {'name': 'stim/line_drawing/lawnmower/lawnmower(3).png', 'path': 'stim/line_drawing/lawnmower/lawnmower(3).png'},
+    {'name': 'stim/line_drawing/lawnmower/lawnmower(4).png', 'path': 'stim/line_drawing/lawnmower/lawnmower(4).png'},
+    {'name': 'stim/line_drawing/lawnmower/lawnmower(5).png', 'path': 'stim/line_drawing/lawnmower/lawnmower(5).png'},
+    {'name': 'stim/line_drawing/lawnmower/lawnmower(6).png', 'path': 'stim/line_drawing/lawnmower/lawnmower(6).png'},
+    {'name': 'stim/line_drawing/lawnmower/lawnmower(7).png', 'path': 'stim/line_drawing/lawnmower/lawnmower(7).png'},
+    {'name': 'stim/line_drawing/lawnmower/lawnmower(8).png', 'path': 'stim/line_drawing/lawnmower/lawnmower(8).png'},
+    {'name': 'stim/line_drawing/lawnmower/lawnmower(9).png', 'path': 'stim/line_drawing/lawnmower/lawnmower(9).png'},
+    {'name': 'stim/line_drawing/lawnmower/lawnmower(10).png', 'path': 'stim/line_drawing/lawnmower/lawnmower(10).png'},
+    {'name': 'stim/line_drawing/house/house(1).png', 'path': 'stim/line_drawing/house/house(1).png'},
+    {'name': 'stim/line_drawing/house/house(2).png', 'path': 'stim/line_drawing/house/house(2).png'},
+    {'name': 'stim/line_drawing/house/house(3).png', 'path': 'stim/line_drawing/house/house(3).png'},
+    {'name': 'stim/line_drawing/house/house(4).png', 'path': 'stim/line_drawing/house/house(4).png'},
+    {'name': 'stim/line_drawing/house/house(5).png', 'path': 'stim/line_drawing/house/house(5).png'},
+    {'name': 'stim/line_drawing/house/house(6).png', 'path': 'stim/line_drawing/house/house(6).png'},
+    {'name': 'stim/line_drawing/house/house(7).png', 'path': 'stim/line_drawing/house/house(7).png'},
+    {'name': 'stim/line_drawing/house/house(8).png', 'path': 'stim/line_drawing/house/house(8).png'},
+    {'name': 'stim/line_drawing/house/house(9).png', 'path': 'stim/line_drawing/house/house(9).png'},
+    {'name': 'stim/line_drawing/house/house(10).png', 'path': 'stim/line_drawing/house/house(10).png'},
+    {'name': 'stim/line_drawing/dog/dog(1).png', 'path': 'stim/line_drawing/dog/dog(1).png'},
+    {'name': 'stim/line_drawing/dog/dog(2).png', 'path': 'stim/line_drawing/dog/dog(2).png'},
+    {'name': 'stim/line_drawing/dog/dog(3).png', 'path': 'stim/line_drawing/dog/dog(3).png'},
+    {'name': 'stim/line_drawing/dog/dog(4).png', 'path': 'stim/line_drawing/dog/dog(4).png'},
+    {'name': 'stim/line_drawing/dog/dog(5).png', 'path': 'stim/line_drawing/dog/dog(5).png'},
+    {'name': 'stim/line_drawing/dog/dog(6).png', 'path': 'stim/line_drawing/dog/dog(6).png'},
+    {'name': 'stim/line_drawing/dog/dog(7).png', 'path': 'stim/line_drawing/dog/dog(7).png'},
+    {'name': 'stim/line_drawing/dog/dog(8).png', 'path': 'stim/line_drawing/dog/dog(8).png'},
+    {'name': 'stim/line_drawing/dog/dog(9).png', 'path': 'stim/line_drawing/dog/dog(9).png'},
+    {'name': 'stim/line_drawing/dog/dog(10).png', 'path': 'stim/line_drawing/dog/dog(10).png'},
+    {'name': 'stim/line_drawing/cow/cow(1).png', 'path': 'stim/line_drawing/cow/cow(1).png'},
+    {'name': 'stim/line_drawing/cow/cow(2).png', 'path': 'stim/line_drawing/cow/cow(2).png'},
+    {'name': 'stim/line_drawing/cow/cow(3).png', 'path': 'stim/line_drawing/cow/cow(3).png'},
+    {'name': 'stim/line_drawing/cow/cow(4).png', 'path': 'stim/line_drawing/cow/cow(4).png'},
+    {'name': 'stim/line_drawing/cow/cow(5).png', 'path': 'stim/line_drawing/cow/cow(5).png'},
+    {'name': 'stim/line_drawing/cow/cow(6).png', 'path': 'stim/line_drawing/cow/cow(6).png'},
+    {'name': 'stim/line_drawing/cow/cow(7).png', 'path': 'stim/line_drawing/cow/cow(7).png'},
+    {'name': 'stim/line_drawing/cow/cow(8).png', 'path': 'stim/line_drawing/cow/cow(8).png'},
+    {'name': 'stim/line_drawing/cow/cow(9).png', 'path': 'stim/line_drawing/cow/cow(9).png'},
+    {'name': 'stim/line_drawing/cow/cow(10).png', 'path': 'stim/line_drawing/cow/cow(10).png'},
+    {'name': 'stim/line_drawing/corn/corn(1).png', 'path': 'stim/line_drawing/corn/corn(1).png'},
+    {'name': 'stim/line_drawing/corn/corn(2).png', 'path': 'stim/line_drawing/corn/corn(2).png'},
+    {'name': 'stim/line_drawing/corn/corn(3).png', 'path': 'stim/line_drawing/corn/corn(3).png'},
+    {'name': 'stim/line_drawing/corn/corn(4).png', 'path': 'stim/line_drawing/corn/corn(4).png'},
+    {'name': 'stim/line_drawing/corn/corn(5).png', 'path': 'stim/line_drawing/corn/corn(5).png'},
+    {'name': 'stim/line_drawing/corn/corn(6).png', 'path': 'stim/line_drawing/corn/corn(6).png'},
+    {'name': 'stim/line_drawing/corn/corn(7).png', 'path': 'stim/line_drawing/corn/corn(7).png'},
+    {'name': 'stim/line_drawing/corn/corn(8).png', 'path': 'stim/line_drawing/corn/corn(8).png'},
+    {'name': 'stim/line_drawing/corn/corn(9).png', 'path': 'stim/line_drawing/corn/corn(9).png'},
+    {'name': 'stim/line_drawing/corn/corn(10).png', 'path': 'stim/line_drawing/corn/corn(10).png'},
+    {'name': 'stim/line_drawing/cat/cat(1).png', 'path': 'stim/line_drawing/cat/cat(1).png'},
+    {'name': 'stim/line_drawing/cat/cat(2).png', 'path': 'stim/line_drawing/cat/cat(2).png'},
+    {'name': 'stim/line_drawing/cat/cat(3).png', 'path': 'stim/line_drawing/cat/cat(3).png'},
+    {'name': 'stim/line_drawing/cat/cat(4).png', 'path': 'stim/line_drawing/cat/cat(4).png'},
+    {'name': 'stim/line_drawing/cat/cat(5).png', 'path': 'stim/line_drawing/cat/cat(5).png'},
+    {'name': 'stim/line_drawing/cat/cat(6).png', 'path': 'stim/line_drawing/cat/cat(6).png'},
+    {'name': 'stim/line_drawing/cat/cat(7).png', 'path': 'stim/line_drawing/cat/cat(7).png'},
+    {'name': 'stim/line_drawing/cat/cat(8).png', 'path': 'stim/line_drawing/cat/cat(8).png'},
+    {'name': 'stim/line_drawing/cat/cat(9).png', 'path': 'stim/line_drawing/cat/cat(9).png'},
+    {'name': 'stim/line_drawing/cat/cat(10).png', 'path': 'stim/line_drawing/cat/cat(10).png'},
+    {'name': 'stim/line_drawing/car/car(1).png', 'path': 'stim/line_drawing/car/car(1).png'},
+    {'name': 'stim/line_drawing/car/car(2).png', 'path': 'stim/line_drawing/car/car(2).png'},
+    {'name': 'stim/line_drawing/car/car(3).png', 'path': 'stim/line_drawing/car/car(3).png'},
+    {'name': 'stim/line_drawing/car/car(4).png', 'path': 'stim/line_drawing/car/car(4).png'},
+    {'name': 'stim/line_drawing/car/car(5).png', 'path': 'stim/line_drawing/car/car(5).png'},
+    {'name': 'stim/line_drawing/car/car(6).png', 'path': 'stim/line_drawing/car/car(6).png'},
+    {'name': 'stim/line_drawing/car/car(7).png', 'path': 'stim/line_drawing/car/car(7).png'},
+    {'name': 'stim/line_drawing/car/car(8).png', 'path': 'stim/line_drawing/car/car(8).png'},
+    {'name': 'stim/line_drawing/car/car(9).png', 'path': 'stim/line_drawing/car/car(9).png'},
+    {'name': 'stim/line_drawing/car/car(10).png', 'path': 'stim/line_drawing/car/car(10).png'},
+    {'name': 'stim/line_drawing/butterfly/butterfly(1).png', 'path': 'stim/line_drawing/butterfly/butterfly(1).png'},
+    {'name': 'stim/line_drawing/butterfly/butterfly(2).png', 'path': 'stim/line_drawing/butterfly/butterfly(2).png'},
+    {'name': 'stim/line_drawing/butterfly/butterfly(3).png', 'path': 'stim/line_drawing/butterfly/butterfly(3).png'},
+    {'name': 'stim/line_drawing/butterfly/butterfly(4).png', 'path': 'stim/line_drawing/butterfly/butterfly(4).png'},
+    {'name': 'stim/line_drawing/butterfly/butterfly(5).png', 'path': 'stim/line_drawing/butterfly/butterfly(5).png'},
+    {'name': 'stim/line_drawing/butterfly/butterfly(6).png', 'path': 'stim/line_drawing/butterfly/butterfly(6).png'},
+    {'name': 'stim/line_drawing/butterfly/butterfly(7).png', 'path': 'stim/line_drawing/butterfly/butterfly(7).png'},
+    {'name': 'stim/line_drawing/butterfly/butterfly(8).png', 'path': 'stim/line_drawing/butterfly/butterfly(8).png'},
+    {'name': 'stim/line_drawing/butterfly/butterfly(9).png', 'path': 'stim/line_drawing/butterfly/butterfly(9).png'},
+    {'name': 'stim/line_drawing/butterfly/butterfly(10).png', 'path': 'stim/line_drawing/butterfly/butterfly(10).png'},
+    {'name': 'stim/line_drawing/bread/bread(1).png', 'path': 'stim/line_drawing/bread/bread(1).png'},
+    {'name': 'stim/line_drawing/bread/bread(2).png', 'path': 'stim/line_drawing/bread/bread(2).png'},
+    {'name': 'stim/line_drawing/bread/bread(3).png', 'path': 'stim/line_drawing/bread/bread(3).png'},
+    {'name': 'stim/line_drawing/bread/bread(4).png', 'path': 'stim/line_drawing/bread/bread(4).png'},
+    {'name': 'stim/line_drawing/bread/bread(5).png', 'path': 'stim/line_drawing/bread/bread(5).png'},
+    {'name': 'stim/line_drawing/bread/bread(6).png', 'path': 'stim/line_drawing/bread/bread(6).png'},
+    {'name': 'stim/line_drawing/bread/bread(7).png', 'path': 'stim/line_drawing/bread/bread(7).png'},
+    {'name': 'stim/line_drawing/bread/bread(8).png', 'path': 'stim/line_drawing/bread/bread(8).png'},
+    {'name': 'stim/line_drawing/bread/bread(9).png', 'path': 'stim/line_drawing/bread/bread(9).png'},
+    {'name': 'stim/line_drawing/bread/bread(10).png', 'path': 'stim/line_drawing/bread/bread(10).png'},
+    {'name': 'stim/line_drawing/binoculars/binoculars(1).png', 'path': 'stim/line_drawing/binoculars/binoculars(1).png'},
+    {'name': 'stim/line_drawing/binoculars/binoculars(2).png', 'path': 'stim/line_drawing/binoculars/binoculars(2).png'},
+    {'name': 'stim/line_drawing/binoculars/binoculars(3).png', 'path': 'stim/line_drawing/binoculars/binoculars(3).png'},
+    {'name': 'stim/line_drawing/binoculars/binoculars(4).png', 'path': 'stim/line_drawing/binoculars/binoculars(4).png'},
+    {'name': 'stim/line_drawing/binoculars/binoculars(5).png', 'path': 'stim/line_drawing/binoculars/binoculars(5).png'},
+    {'name': 'stim/line_drawing/binoculars/binoculars(6).png', 'path': 'stim/line_drawing/binoculars/binoculars(6).png'},
+    {'name': 'stim/line_drawing/binoculars/binoculars(7).png', 'path': 'stim/line_drawing/binoculars/binoculars(7).png'},
+    {'name': 'stim/line_drawing/binoculars/binoculars(8).png', 'path': 'stim/line_drawing/binoculars/binoculars(8).png'},
+    {'name': 'stim/line_drawing/binoculars/binoculars(9).png', 'path': 'stim/line_drawing/binoculars/binoculars(9).png'},
+    {'name': 'stim/line_drawing/binoculars/binoculars(10).png', 'path': 'stim/line_drawing/binoculars/binoculars(10).png'},
+    {'name': 'stim/line_drawing/bear/bear(1).png', 'path': 'stim/line_drawing/bear/bear(1).png'},
+    {'name': 'stim/line_drawing/bear/bear(2).png', 'path': 'stim/line_drawing/bear/bear(2).png'},
+    {'name': 'stim/line_drawing/bear/bear(3).png', 'path': 'stim/line_drawing/bear/bear(3).png'},
+    {'name': 'stim/line_drawing/bear/bear(4).png', 'path': 'stim/line_drawing/bear/bear(4).png'},
+    {'name': 'stim/line_drawing/bear/bear(5).png', 'path': 'stim/line_drawing/bear/bear(5).png'},
+    {'name': 'stim/line_drawing/bear/bear(6).png', 'path': 'stim/line_drawing/bear/bear(6).png'},
+    {'name': 'stim/line_drawing/bear/bear(7).png', 'path': 'stim/line_drawing/bear/bear(7).png'},
+    {'name': 'stim/line_drawing/bear/bear(8).png', 'path': 'stim/line_drawing/bear/bear(8).png'},
+    {'name': 'stim/line_drawing/bear/bear(9).png', 'path': 'stim/line_drawing/bear/bear(9).png'},
+    {'name': 'stim/line_drawing/bear/bear(10).png', 'path': 'stim/line_drawing/bear/bear(10).png'},
+    {'name': 'stim/line_drawing/avocado/avocado(1).png', 'path': 'stim/line_drawing/avocado/avocado(1).png'},
+    {'name': 'stim/line_drawing/avocado/avocado(2).png', 'path': 'stim/line_drawing/avocado/avocado(2).png'},
+    {'name': 'stim/line_drawing/avocado/avocado(3).png', 'path': 'stim/line_drawing/avocado/avocado(3).png'},
+    {'name': 'stim/line_drawing/avocado/avocado(4).png', 'path': 'stim/line_drawing/avocado/avocado(4).png'},
+    {'name': 'stim/line_drawing/avocado/avocado(5).png', 'path': 'stim/line_drawing/avocado/avocado(5).png'},
+    {'name': 'stim/line_drawing/avocado/avocado(6).png', 'path': 'stim/line_drawing/avocado/avocado(6).png'},
+    {'name': 'stim/line_drawing/avocado/avocado(7).png', 'path': 'stim/line_drawing/avocado/avocado(7).png'},
+    {'name': 'stim/line_drawing/avocado/avocado(8).png', 'path': 'stim/line_drawing/avocado/avocado(8).png'},
+    {'name': 'stim/line_drawing/avocado/avocado(9).png', 'path': 'stim/line_drawing/avocado/avocado(9).png'},
+    {'name': 'stim/line_drawing/avocado/avocado(10).png', 'path': 'stim/line_drawing/avocado/avocado(10).png'},
+    {'name': 'stim/line_drawing/apple/apple(1).png', 'path': 'stim/line_drawing/apple/apple(1).png'},
+    {'name': 'stim/line_drawing/apple/apple(2).png', 'path': 'stim/line_drawing/apple/apple(2).png'},
+    {'name': 'stim/line_drawing/apple/apple(3).png', 'path': 'stim/line_drawing/apple/apple(3).png'},
+    {'name': 'stim/line_drawing/apple/apple(4).png', 'path': 'stim/line_drawing/apple/apple(4).png'},
+    {'name': 'stim/line_drawing/apple/apple(5).png', 'path': 'stim/line_drawing/apple/apple(5).png'},
+    {'name': 'stim/line_drawing/apple/apple(6).png', 'path': 'stim/line_drawing/apple/apple(6).png'},
+    {'name': 'stim/line_drawing/apple/apple(7).png', 'path': 'stim/line_drawing/apple/apple(7).png'},
+    {'name': 'stim/line_drawing/apple/apple(8).png', 'path': 'stim/line_drawing/apple/apple(8).png'},
+    {'name': 'stim/line_drawing/apple/apple(9).png', 'path': 'stim/line_drawing/apple/apple(9).png'},
+    {'name': 'stim/line_drawing/apple/apple(10).png', 'path': 'stim/line_drawing/apple/apple(10).png'},
+    {'name': 'stim/line_drawing/airplane/airplane(1).png', 'path': 'stim/line_drawing/airplane/airplane(1).png'},
+    {'name': 'stim/line_drawing/airplane/airplane(2).png', 'path': 'stim/line_drawing/airplane/airplane(2).png'},
+    {'name': 'stim/line_drawing/airplane/airplane(3).png', 'path': 'stim/line_drawing/airplane/airplane(3).png'},
+    {'name': 'stim/line_drawing/airplane/airplane(4).png', 'path': 'stim/line_drawing/airplane/airplane(4).png'},
+    {'name': 'stim/line_drawing/airplane/airplane(5).png', 'path': 'stim/line_drawing/airplane/airplane(5).png'},
+    {'name': 'stim/line_drawing/airplane/airplane(6).png', 'path': 'stim/line_drawing/airplane/airplane(6).png'},
+    {'name': 'stim/line_drawing/airplane/airplane(7).png', 'path': 'stim/line_drawing/airplane/airplane(7).png'},
+    {'name': 'stim/line_drawing/airplane/airplane(8).png', 'path': 'stim/line_drawing/airplane/airplane(8).png'},
+    {'name': 'stim/line_drawing/airplane/airplane(9).png', 'path': 'stim/line_drawing/airplane/airplane(9).png'},
+    {'name': 'stim/line_drawing/airplane/airplane(10).png', 'path': 'stim/line_drawing/airplane/airplane(10).png'},
   ]
 });
 
@@ -171,7 +806,6 @@ async function updateInfo() {
 var loading_instructionsClock;
 var loading_instruction;
 var intro_practiceClock;
-var pract_resources;
 var intro_text;
 var key_resp_2;
 var intro_practice_2Clock;
@@ -199,8 +833,6 @@ var prac_label9;
 var prac_key_resp;
 var prac_feedbackClock;
 var img_feedback;
-var img_set_loaderClock;
-var loading_img_text;
 var instructions_testClock;
 var text_7;
 var key_resp_9;
@@ -248,9 +880,6 @@ async function experimentInit() {
   
   // Initialize components for Routine "intro_practice"
   intro_practiceClock = new util.Clock();
-  pract_resources = {
-    status: PsychoJS.Status.NOT_STARTED
-  };
   intro_text = new visual.TextStim({
     win: psychoJS.window,
     name: 'intro_text',
@@ -260,7 +889,7 @@ async function experimentInit() {
     pos: [0, 0], draggable: false, height: 0.03,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color('white'),  opacity: undefined,
-    depth: -1.0 
+    depth: 0.0 
   });
   
   key_resp_2 = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
@@ -490,20 +1119,6 @@ async function experimentInit() {
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -1.0 
   });
-  // Initialize components for Routine "img_set_loader"
-  img_set_loaderClock = new util.Clock();
-  loading_img_text = new visual.TextStim({
-    win: psychoJS.window,
-    name: 'loading_img_text',
-    text: 'Loading images, please wait.....',
-    font: 'Arial',
-    units: undefined, 
-    pos: [0, 0], draggable: false, height: 0.03,  wrapWidth: undefined, ori: 0.0,
-    languageStyle: 'LTR',
-    color: new util.Color('white'),  opacity: undefined,
-    depth: 0.0 
-  });
-  
   // Initialize components for Routine "instructions_test"
   instructions_testClock = new util.Clock();
   text_7 = new visual.TextStim({
@@ -877,7 +1492,6 @@ function intro_practiceRoutineBegin(snapshot) {
     intro_practiceMaxDuration = null
     // keep track of which components have finished
     intro_practiceComponents = [];
-    intro_practiceComponents.push(pract_resources);
     intro_practiceComponents.push(intro_text);
     intro_practiceComponents.push(key_resp_2);
     
@@ -896,21 +1510,6 @@ function intro_practiceRoutineEachFrame() {
     t = intro_practiceClock.getTime();
     frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
     // update/draw components on each frame
-    // start downloading resources specified by component pract_resources
-    if (t >= 0 && pract_resources.status === PsychoJS.Status.NOT_STARTED) {
-      console.log('register and start downloading resources specified by component pract_resources');
-      await psychoJS.serverManager.prepareResources(["stim/scrambled/prac_image.png", "stim/natural/prac_image.png", "stim/line_drawing/prac_image.png", "stim/check_mark.png", "stim/prompt.png", "stim/rgb_mask.jpg", "stim/wrong.png", "stim/practice_stim/truck/truck(1).JPEG", "stim/practice_stim/truck/truck(2).JPEG", "stim/practice_stim/truck/truck(3).JPEG", "stim/practice_stim/truck/truck(4).JPEG", "stim/practice_stim/truck/truck(5).JPEG", "stim/practice_stim/truck/truck(6).JPEG", "stim/practice_stim/truck/truck(7).JPEG", "stim/practice_stim/truck/truck(8).JPEG", "stim/practice_stim/truck/truck(9).JPEG", "stim/practice_stim/truck/truck(10).JPEG", "stim/practice_stim/tree/tree(1).JPEG", "stim/practice_stim/tree/tree(2).JPEG", "stim/practice_stim/tree/tree(3).JPEG", "stim/practice_stim/tree/tree(4).JPEG", "stim/practice_stim/tree/tree(5).JPEG", "stim/practice_stim/tree/tree(6).JPEG", "stim/practice_stim/tree/tree(7).JPEG", "stim/practice_stim/tree/tree(8).JPEG", "stim/practice_stim/tree/tree(9).JPEG", "stim/practice_stim/tree/tree(10).JPEG", "stim/practice_stim/leaf/leaf(1).JPEG", "stim/practice_stim/leaf/leaf(2).JPEG", "stim/practice_stim/leaf/leaf(3).JPEG", "stim/practice_stim/leaf/leaf(4).JPEG", "stim/practice_stim/leaf/leaf(5).JPEG", "stim/practice_stim/leaf/leaf(6).JPEG", "stim/practice_stim/leaf/leaf(7).JPEG", "stim/practice_stim/leaf/leaf(8).JPEG", "stim/practice_stim/leaf/leaf(9).JPEG", "stim/practice_stim/leaf/leaf(10).JPEG", "stim/practice_stim/hand/hand(1).JPEG", "stim/practice_stim/hand/hand(2).JPEG", "stim/practice_stim/hand/hand(3).JPEG", "stim/practice_stim/hand/hand(4).JPEG", "stim/practice_stim/hand/hand(5).JPEG", "stim/practice_stim/hand/hand(6).JPEG", "stim/practice_stim/hand/hand(7).JPEG", "stim/practice_stim/hand/hand(8).JPEG", "stim/practice_stim/hand/hand(9).JPEG", "stim/practice_stim/hand/hand(10).JPEG", "stim/practice_stim/flower/flower(1).JPEG", "stim/practice_stim/flower/flower(2).JPEG", "stim/practice_stim/flower/flower(3).JPEG", "stim/practice_stim/flower/flower(4).JPEG", "stim/practice_stim/flower/flower(5).JPEG", "stim/practice_stim/flower/flower(6).JPEG", "stim/practice_stim/flower/flower(7).JPEG", "stim/practice_stim/flower/flower(8).JPEG", "stim/practice_stim/flower/flower(9).JPEG", "stim/practice_stim/flower/flower(10).JPEG", "stim/practice_stim/duck/duck(1).JPEG", "stim/practice_stim/duck/duck(2).JPEG", "stim/practice_stim/duck/duck(3).JPEG", "stim/practice_stim/duck/duck(4).JPEG", "stim/practice_stim/duck/duck(5).JPEG", "stim/practice_stim/duck/duck(6).JPEG", "stim/practice_stim/duck/duck(7).JPEG", "stim/practice_stim/duck/duck(8).JPEG", "stim/practice_stim/duck/duck(9).JPEG", "stim/practice_stim/duck/duck(10).JPEG", "stim/practice_stim/dog/dog(1).JPEG", "stim/practice_stim/dog/dog(2).JPEG", "stim/practice_stim/dog/dog(3).JPEG", "stim/practice_stim/dog/dog(4).JPEG", "stim/practice_stim/dog/dog(5).JPEG", "stim/practice_stim/dog/dog(6).JPEG", "stim/practice_stim/dog/dog(7).JPEG", "stim/practice_stim/dog/dog(8).JPEG", "stim/practice_stim/dog/dog(9).JPEG", "stim/practice_stim/dog/dog(10).JPEG", "stim/practice_stim/chair/chair(1).JPEG", "stim/practice_stim/chair/chair(2).JPEG", "stim/practice_stim/chair/chair(3).JPEG", "stim/practice_stim/chair/chair(4).JPEG", "stim/practice_stim/chair/chair(5).JPEG", "stim/practice_stim/chair/chair(6).JPEG", "stim/practice_stim/chair/chair(7).JPEG", "stim/practice_stim/chair/chair(8).JPEG", "stim/practice_stim/chair/chair(9).JPEG", "stim/practice_stim/chair/chair(10).JPEG", "stim/practice_stim/bicycle/bicycle(1).JPEG", "stim/practice_stim/bicycle/bicycle(2).JPEG", "stim/practice_stim/bicycle/bicycle(3).JPEG", "stim/practice_stim/bicycle/bicycle(4).JPEG", "stim/practice_stim/bicycle/bicycle(5).JPEG", "stim/practice_stim/bicycle/bicycle(6).JPEG", "stim/practice_stim/bicycle/bicycle(7).JPEG", "stim/practice_stim/bicycle/bicycle(8).JPEG", "stim/practice_stim/bicycle/bicycle(9).JPEG", "stim/practice_stim/bicycle/bicycle(10).JPEG"]);
-      pract_resources.status = PsychoJS.Status.STARTED;
-    }
-    // check on the resources specified by component pract_resources
-    if (t >= null && pract_resources.status === PsychoJS.Status.STARTED) {
-      if (psychoJS.serverManager.getResourceStatus(["stim/scrambled/prac_image.png", "stim/natural/prac_image.png", "stim/line_drawing/prac_image.png", "stim/check_mark.png", "stim/prompt.png", "stim/rgb_mask.jpg", "stim/wrong.png", "stim/practice_stim/truck/truck(1).JPEG", "stim/practice_stim/truck/truck(2).JPEG", "stim/practice_stim/truck/truck(3).JPEG", "stim/practice_stim/truck/truck(4).JPEG", "stim/practice_stim/truck/truck(5).JPEG", "stim/practice_stim/truck/truck(6).JPEG", "stim/practice_stim/truck/truck(7).JPEG", "stim/practice_stim/truck/truck(8).JPEG", "stim/practice_stim/truck/truck(9).JPEG", "stim/practice_stim/truck/truck(10).JPEG", "stim/practice_stim/tree/tree(1).JPEG", "stim/practice_stim/tree/tree(2).JPEG", "stim/practice_stim/tree/tree(3).JPEG", "stim/practice_stim/tree/tree(4).JPEG", "stim/practice_stim/tree/tree(5).JPEG", "stim/practice_stim/tree/tree(6).JPEG", "stim/practice_stim/tree/tree(7).JPEG", "stim/practice_stim/tree/tree(8).JPEG", "stim/practice_stim/tree/tree(9).JPEG", "stim/practice_stim/tree/tree(10).JPEG", "stim/practice_stim/leaf/leaf(1).JPEG", "stim/practice_stim/leaf/leaf(2).JPEG", "stim/practice_stim/leaf/leaf(3).JPEG", "stim/practice_stim/leaf/leaf(4).JPEG", "stim/practice_stim/leaf/leaf(5).JPEG", "stim/practice_stim/leaf/leaf(6).JPEG", "stim/practice_stim/leaf/leaf(7).JPEG", "stim/practice_stim/leaf/leaf(8).JPEG", "stim/practice_stim/leaf/leaf(9).JPEG", "stim/practice_stim/leaf/leaf(10).JPEG", "stim/practice_stim/hand/hand(1).JPEG", "stim/practice_stim/hand/hand(2).JPEG", "stim/practice_stim/hand/hand(3).JPEG", "stim/practice_stim/hand/hand(4).JPEG", "stim/practice_stim/hand/hand(5).JPEG", "stim/practice_stim/hand/hand(6).JPEG", "stim/practice_stim/hand/hand(7).JPEG", "stim/practice_stim/hand/hand(8).JPEG", "stim/practice_stim/hand/hand(9).JPEG", "stim/practice_stim/hand/hand(10).JPEG", "stim/practice_stim/flower/flower(1).JPEG", "stim/practice_stim/flower/flower(2).JPEG", "stim/practice_stim/flower/flower(3).JPEG", "stim/practice_stim/flower/flower(4).JPEG", "stim/practice_stim/flower/flower(5).JPEG", "stim/practice_stim/flower/flower(6).JPEG", "stim/practice_stim/flower/flower(7).JPEG", "stim/practice_stim/flower/flower(8).JPEG", "stim/practice_stim/flower/flower(9).JPEG", "stim/practice_stim/flower/flower(10).JPEG", "stim/practice_stim/duck/duck(1).JPEG", "stim/practice_stim/duck/duck(2).JPEG", "stim/practice_stim/duck/duck(3).JPEG", "stim/practice_stim/duck/duck(4).JPEG", "stim/practice_stim/duck/duck(5).JPEG", "stim/practice_stim/duck/duck(6).JPEG", "stim/practice_stim/duck/duck(7).JPEG", "stim/practice_stim/duck/duck(8).JPEG", "stim/practice_stim/duck/duck(9).JPEG", "stim/practice_stim/duck/duck(10).JPEG", "stim/practice_stim/dog/dog(1).JPEG", "stim/practice_stim/dog/dog(2).JPEG", "stim/practice_stim/dog/dog(3).JPEG", "stim/practice_stim/dog/dog(4).JPEG", "stim/practice_stim/dog/dog(5).JPEG", "stim/practice_stim/dog/dog(6).JPEG", "stim/practice_stim/dog/dog(7).JPEG", "stim/practice_stim/dog/dog(8).JPEG", "stim/practice_stim/dog/dog(9).JPEG", "stim/practice_stim/dog/dog(10).JPEG", "stim/practice_stim/chair/chair(1).JPEG", "stim/practice_stim/chair/chair(2).JPEG", "stim/practice_stim/chair/chair(3).JPEG", "stim/practice_stim/chair/chair(4).JPEG", "stim/practice_stim/chair/chair(5).JPEG", "stim/practice_stim/chair/chair(6).JPEG", "stim/practice_stim/chair/chair(7).JPEG", "stim/practice_stim/chair/chair(8).JPEG", "stim/practice_stim/chair/chair(9).JPEG", "stim/practice_stim/chair/chair(10).JPEG", "stim/practice_stim/bicycle/bicycle(1).JPEG", "stim/practice_stim/bicycle/bicycle(2).JPEG", "stim/practice_stim/bicycle/bicycle(3).JPEG", "stim/practice_stim/bicycle/bicycle(4).JPEG", "stim/practice_stim/bicycle/bicycle(5).JPEG", "stim/practice_stim/bicycle/bicycle(6).JPEG", "stim/practice_stim/bicycle/bicycle(7).JPEG", "stim/practice_stim/bicycle/bicycle(8).JPEG", "stim/practice_stim/bicycle/bicycle(9).JPEG", "stim/practice_stim/bicycle/bicycle(10).JPEG"]) === core.ServerManager.ResourceStatus.DOWNLOADED) {
-        console.log('finished downloading resources specified by component pract_resources');
-        pract_resources.status = PsychoJS.Status.FINISHED;
-      } else {
-        console.log('resource specified in pract_resources took longer than expected to download');
-      }
-    }
     
     // *intro_text* updates
     if (t >= 0.0 && intro_text.status === PsychoJS.Status.NOT_STARTED) {
@@ -1247,9 +1846,6 @@ function randomize_blocksLoopBegin(randomize_blocksLoopScheduler, snapshot) {
     for (const thisRandomize_block of randomize_blocks) {
       snapshot = randomize_blocks.getSnapshot();
       randomize_blocksLoopScheduler.add(importConditions(snapshot));
-      randomize_blocksLoopScheduler.add(img_set_loaderRoutineBegin(snapshot));
-      randomize_blocksLoopScheduler.add(img_set_loaderRoutineEachFrame());
-      randomize_blocksLoopScheduler.add(img_set_loaderRoutineEnd(snapshot));
       randomize_blocksLoopScheduler.add(instructions_testRoutineBegin(snapshot));
       randomize_blocksLoopScheduler.add(instructions_testRoutineEachFrame());
       randomize_blocksLoopScheduler.add(instructions_testRoutineEnd(snapshot));
@@ -2188,123 +2784,6 @@ function prac_feedbackRoutineEnd(snapshot) {
         prac_feedbackClock.add(prac_feedbackMaxDuration);
     } else {
         prac_feedbackClock.add(1.000000);
-    }
-    // Routines running outside a loop should always advance the datafile row
-    if (currentLoop === psychoJS.experiment) {
-      psychoJS.experiment.nextEntry(snapshot);
-    }
-    return Scheduler.Event.NEXT;
-  }
-}
-
-
-var img_set_loaderMaxDurationReached;
-var img_set_loaderMaxDuration;
-var img_set_loaderComponents;
-function img_set_loaderRoutineBegin(snapshot) {
-  return async function () {
-    TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
-    
-    //--- Prepare to start Routine 'img_set_loader' ---
-    t = 0;
-    frameN = -1;
-    continueRoutine = true; // until we're told otherwise
-    img_set_loaderClock.reset(routineTimer.getTime());
-    routineTimer.add(15.000000);
-    img_set_loaderMaxDurationReached = false;
-    // update component parameters for each repeat
-    const object_classes = ['airplane', 'apple', 'avocado', 'bear', 'binoculars', 'bread', 'butterfly', 'car', 'cat', 'corn', 'cow', 'dog', 'house', 'lawnmower', 'mushroom', 'pineapple', 'snail', 'train'];
-    const file_list = [];
-    
-    object_classes.forEach(object => {
-      for (let i = 1; i <= 10; i++) {
-          let filename;
-    
-    
-          filename = `stim/${block_condition}/${object}/${object}(${i}).png`;
-          //console.log(filename)
-          file_list.push(filename);
-          }
-    });
-    console.log(file_list);
-    psychoJS.serverManager.prepareResources(file_list);
-    console.log("Resource Loaded");
-    
-    //Scheduler.Event.NEXT;
-    img_set_loaderMaxDuration = null
-    // keep track of which components have finished
-    img_set_loaderComponents = [];
-    img_set_loaderComponents.push(loading_img_text);
-    
-    for (const thisComponent of img_set_loaderComponents)
-      if ('status' in thisComponent)
-        thisComponent.status = PsychoJS.Status.NOT_STARTED;
-    return Scheduler.Event.NEXT;
-  }
-}
-
-
-function img_set_loaderRoutineEachFrame() {
-  return async function () {
-    //--- Loop for each frame of Routine 'img_set_loader' ---
-    // get current time
-    t = img_set_loaderClock.getTime();
-    frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
-    // update/draw components on each frame
-    
-    // *loading_img_text* updates
-    if (t >= 0.0 && loading_img_text.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      loading_img_text.tStart = t;  // (not accounting for frame time here)
-      loading_img_text.frameNStart = frameN;  // exact frame index
-      
-      loading_img_text.setAutoDraw(true);
-    }
-    
-    frameRemains = 0.0 + 15 - psychoJS.window.monitorFramePeriod * 0.75;// most of one frame period left
-    if (loading_img_text.status === PsychoJS.Status.STARTED && t >= frameRemains) {
-      loading_img_text.setAutoDraw(false);
-    }
-    
-    // check for quit (typically the Esc key)
-    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
-    }
-    
-    // check if the Routine should terminate
-    if (!continueRoutine) {  // a component has requested a forced-end of Routine
-      return Scheduler.Event.NEXT;
-    }
-    
-    continueRoutine = false;  // reverts to True if at least one component still running
-    for (const thisComponent of img_set_loaderComponents)
-      if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
-        continueRoutine = true;
-        break;
-      }
-    
-    // refresh the screen if continuing
-    if (continueRoutine && routineTimer.getTime() > 0) {
-      return Scheduler.Event.FLIP_REPEAT;
-    } else {
-      return Scheduler.Event.NEXT;
-    }
-  };
-}
-
-
-function img_set_loaderRoutineEnd(snapshot) {
-  return async function () {
-    //--- Ending Routine 'img_set_loader' ---
-    for (const thisComponent of img_set_loaderComponents) {
-      if (typeof thisComponent.setAutoDraw === 'function') {
-        thisComponent.setAutoDraw(false);
-      }
-    }
-    if (img_set_loaderMaxDurationReached) {
-        img_set_loaderClock.add(img_set_loaderMaxDuration);
-    } else {
-        img_set_loaderClock.add(15.000000);
     }
     // Routines running outside a loop should always advance the datafile row
     if (currentLoop === psychoJS.experiment) {
